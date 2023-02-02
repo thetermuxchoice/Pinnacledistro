@@ -37,6 +37,7 @@ text-align: center;
 .h1-sale{
     font-size: 2.4vw;
     margin-bottom: 40px;
+    color: #000000 !important;
 }
 
 .button_text-sale{
@@ -67,3 +68,31 @@ padding-bottom: 50px;
 .title-p{
   font-weight: 800;
 }
+
+.button{
+    background-color: #212121 !important;
+    color: #ffc31a !important;
+
+}
+
+.button:hover{
+    background-color: #ffc31a !important;
+    color: #000 !important;
+}
+
+
+.button.primary .arrow svg g{
+    stroke: #ffc31a !important;
+}
+
+.button:hover.primary .arrow svg g{
+    stroke: #000 !important;
+}
+
+.h1{
+color: #000000 !important;
+}    
+
+
+
+
