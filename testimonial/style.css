@@ -40,7 +40,7 @@
 .testimonial-author {
   display: block;
   font-weight: 800;
-  color: #450073;
+  color: #ffc31a;
 }
 
 .flickity-page-dots {
@@ -48,5 +48,5 @@
 }
 
 .flickity-page-dots .dot.is-selected {
-  background: #450073;
+  background: #ffc31a;
 }
