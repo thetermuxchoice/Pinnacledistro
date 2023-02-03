@@ -99,6 +99,43 @@ color: #000000 !important;
     background-size: cover;
 }*/
 
+.color_theme__light p{
+    color:#212121 !important;
+    font-size:25px;
+}
+
+.color_theme__dark p{
+    color: #212121 !important;
+}
+
+.btn-yellow{
+    background-color: #ffc31a !important;
+    color: #212121 !important;
+}
+
+.button-yellow{
+    color:#212121 !important;
+}
+
+
+.primary .button-yellow .arrow svg g {
+    stroke: #212121 !important;
+}
 
 
 
+section.mfr-core__image-section .image-wrapper.circle:after {
+    animation-name: rotating;
+    animation-duration: 56s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    content: "";
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 723 723'%3E%3Cpath d='M361.5 722C560.599 722 722 560.599 722 361.5S560.599 1 361.5 1 1 162.401 1 361.5 162.401 722 361.5 722Z' stroke='%red' stroke-width='2' fill='none' fill-rule='evenodd' stroke-dasharray='10'/%3E%3C/svg%3E");
+}
