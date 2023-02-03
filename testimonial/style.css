@@ -1,12 +1,44 @@
 * {
   box-sizing: border-box;
 }
-
-/*body {
-  font-family: "Lato";
-  background: url('https://subtlepatterns.com/patterns/sativa.png');
+@font-face {
+  font-family: 'Graphik Wide';
+  src: local('Graphik Wide'), url('https://cdn.shopify.com/s/files/1/0601/6729/1037/files/GraphikWide-Black-Web.woff2?v=1641321066') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}@font-face {
+  font-family: 'Graphik';
+  src: local('Graphik'), url('https://cdn.shopify.com/s/files/1/0601/6729/1037/files/Graphik-Black-Web.woff2?v=1641321066') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}@font-face {
+  font-family: 'Graphik';
+  src: local('Graphik'), url('https://cdn.shopify.com/s/files/1/0601/6729/1037/files/Graphik-Semibold-Web.woff2?v=1641321067') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}@font-face {
+  font-family: 'Graphik';
+  src: local('Graphik'), url('https://cdn.shopify.com/s/files/1/0601/6729/1037/files/Graphik-Regular-Web.woff2?v=1641321066') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}@font-face {
+font-family: Archivo;
+font-weight: 700;
+font-style: normal;
+src: url("https://fonts.shopifycdn.com/archivo/archivo_n7.6f363ab30b12ea00d5e6243ed0e977a11393a3ad.woff2?h1=cGh5bGwuY29t&hmac=21f420ac6f73a4610c58695f8625ed03e97fa9782b46f75df08dbd65ae237baf") format("woff2"),
+   url("https://fonts.shopifycdn.com/archivo/archivo_n7.846b40a5735bbd149ad44b083a19c3e5d88d8fab.woff?h1=cGh5bGwuY29t&hmac=ba575c948025b73e4a1fc1363987e9d70f07f9a3c756f2fecdc12f5a5659dd87") format("woff");
 }
-*/
+body {
+  /*font-family: "Lato";
+  background: url('https://subtlepatterns.com/patterns/sativa.png');*/
+  font-family: 'Graphik';
+  font-weight:normal;
+}
+
 .main-gallery {
   background: rgba(255, 255, 255, 0);
   /*box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
@@ -32,15 +64,18 @@
 
 .testimonial-quote {
   display: block;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 300;
   padding: 10px 0;
+  color: #fff;
 }
 
 .testimonial-author {
   display: block;
   font-weight: 800;
   color: #ffc31a;
+  font-size: 27px;
+  margin-top: 30px;
 }
 
 .flickity-page-dots {

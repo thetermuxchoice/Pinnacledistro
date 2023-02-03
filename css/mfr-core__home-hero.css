@@ -320,4 +320,20 @@ section.mfr-core__home-hero .hero-divider svg{
     height:100%;
     width:100%
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background-color: rgba(0, 128, 0, 0);
+    opacity: 0.75;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 128, 0, 0);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgba(0, 128, 0, 0);
+  }
  
+
