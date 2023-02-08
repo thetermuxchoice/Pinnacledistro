@@ -187,3 +187,10 @@ section.mfr-core__image-section .image-wrapper.circle:after {
   .button.secondary .arrow svg g{
     stroke:#ffc31a !important;
   }
+
+  .flickity-slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translate(0) !important;
+}
