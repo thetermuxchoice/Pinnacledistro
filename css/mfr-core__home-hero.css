@@ -61,7 +61,8 @@ section.mfr-core__home-hero .section-content .h1{
     font-weight:800;
     font-size: 3.2vw;
     line-height: 4vw;
-    color: #ffc31a !important;
+    color: #fff !important;
+    text-align: left;
 }
 section.mfr-core__home-hero .section-content .section-text{
     position:relative;
@@ -128,7 +129,8 @@ section.mfr-core__home-hero .hero__product-lineup{
         order:2;
         width:40%;
         margin-bottom:18rem;
-        margin-right:6vw
+        margin-right:3vw;
+        margin-top: 3vw;
     }
 }
 @media screen and (min-width: 100em){

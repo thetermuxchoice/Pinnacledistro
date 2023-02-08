@@ -1,12 +1,19 @@
 .title-featured{
 font-weight: 800;
-font-size: 16px;
+font-size: 20px;
 margin-top: 50px;
 color: #212121 !important;
 }
 .div-featured{
-padding-top:10px;
+/*padding-top:10px;*/
+width:90%;
+margin: 0 auto;
 text-align: center;
+}
+
+.product-card .product-card-inner .product-image-wrapper .product-image-inner .product-image.image-size-contain {
+    width: 70%;
+    height: 85%;
 }
 
 .product-image{
@@ -36,7 +43,7 @@ text-align: center;
 }
 
 .h1-sale{
-    font-size: 2.4vw;
+    font-size: 2.2vw;
     margin-bottom: 40px;
     color: #000000 !important;
 }
@@ -101,7 +108,7 @@ color: #000000 !important;
 }*/
 
 .color_theme__light p{
-    color:#212121 !important;
+    color:#fff !important;
     font-size:25px;
 }
 
@@ -138,9 +145,45 @@ section.mfr-core__image-section .image-wrapper.circle:after {
     width: 100%;
     height: 100%;
     background-size: contain;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 723 723'%3E%3Cpath d='M361.5 722C560.599 722 722 560.599 722 361.5S560.599 1 361.5 1 1 162.401 1 361.5 162.401 722 361.5 722Z' stroke='%23450073' stroke-width='2' fill='none' fill-rule='evenodd' stroke-dasharray='10'/%3E%3C/svg%3E");
+    /*background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 723 723'%3E%3Cpath d='M361.5 722C560.599 722 722 560.599 722 361.5S560.599 1 361.5 1 1 162.401 1 361.5 162.401 722 361.5 722Z' stroke='%23450073' stroke-width='2' fill='none' fill-rule='evenodd' stroke-dasharray='10'/%3E%3C/svg%3E");*/
+    background-image: url('../img/circulo.svg');
 }
 
 .product-card .product-card-inner .product-card__add-to-cart-plus {
     background: #212121;
 }
+
+
+.container {
+    padding-top: 100px;
+  }
+  .box {
+    width: 20rem;
+    height: auto;
+    /*background-color: dodgerblue;
+    border-radius: 20%;
+    display: inline-block;
+    border: 1px solid black;*/
+  }
+  
+  .box1{
+    width: 20rem;
+    height: auto;
+   /* background-color: dodgerblue;
+    border-radius: 20%;
+    display: inline-block;
+    border: 1px solid black;*/
+  }
+  
+  .box2 {
+    width: 20rem;
+    height: auto;
+    /*background-color: dodgerblue;
+    border-radius: 20%;
+    display: inline-block;
+    border: 1px solid black;*/
+  }
+
+  .button.secondary .arrow svg g{
+    stroke:#ffc31a !important;
+  }

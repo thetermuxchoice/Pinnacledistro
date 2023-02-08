@@ -226,7 +226,7 @@ footer .footer__links-main .menu li a{
     color:var(--color-white);
     padding:.3rem 0;
     display:inline-block;
-    font-weight:700;
+    font-weight:600;
     position:relative
 }
 @media print,screen and (min-width:64em){
@@ -435,4 +435,8 @@ footer .small-footer-text{
 
 .input-footer::placeholder{
 color: #212121;
+}
+
+.h3-footer{
+font-size:18px;
 }
