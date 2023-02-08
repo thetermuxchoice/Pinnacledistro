@@ -5624,15 +5624,15 @@ only 1 in 10 adults eat the recommended daily serving of fruits & veggies?</p>
   
   <script type="text/javascript">
   jQuery(function(){
-    carouseInit();
+    carouseInit1();
   });
 
   document.addEventListener("shopify:section:load", function(event) {
-    carouseInit();
+    carouseInit1();
   });
 
-  function carouseInit() {
-    var $carousel = $('.product-carousel-section-template--15761724145821__1642251543985a82b8').flickity({
+  function carouseInit1() {
+    var $carousel1 = $('.product-carousel-section-template--15761724145821__1642251543985a82b8').flickity({
       selectedAttraction: 0.2,
       friction: 0.8,
       initialIndex: 0,
@@ -5654,7 +5654,7 @@ only 1 in 10 adults eat the recommended daily serving of fruits & veggies?</p>
 
     
     // Flickity instance
-    var flkty = $carousel.data('flickity');}
+    var flkty1 = $carousel1.data('flickity');}
   
 
 
@@ -5664,7 +5664,7 @@ only 1 in 10 adults eat the recommended daily serving of fruits & veggies?</p>
 
 <section class="mfr-core__product-carousel background  " style="padding-top: 0px;">
 
-  <div class="grid-container full section_spacing_medium_top section_spacing_small_bottom product-carousel-container">
+  <div class="grid-container full section_spacing_medium_top section_spacing_small_bottom product-carousel-container" style="padding-bottom: 10rem;">
     <div class="tw" data-aos="animated">
       <h1 class="section-title h1 div-center div-padding-bottom" data-aos data-aos-offset="-100">
         
@@ -6251,15 +6251,15 @@ only 1 in 10 adults eat the recommended daily serving of fruits & veggies?</p>
       return value >= min &&  value <= max;
     }
     jQuery(function(){
-      carouseInit();
+      carouseInit1();
     });
 
     document.addEventListener("shopify:section:load", function(event) {
-      carouseInit();
+      carouseInit1();
     });
 
-    function carouseInit() {
-      var $carousel = $('#product-carouseltemplate--15761724145821__1642251543985a82b8').flickity({
+    function carouseInit1() {
+      var $carousel1 = $('#product-carouseltemplate--15761724145821__1642251543985a82b8').flickity({
         selectedAttraction: 0.2,
         friction: 0.8,
         dragThreshold: 1,
@@ -6288,7 +6288,7 @@ only 1 in 10 adults eat the recommended daily serving of fruits & veggies?</p>
       });
 
       // Flickity instance
-      var flkty = $carousel.data('flickity');
+      var flkty1 = $carousel1.data('flickity');
       // elements
       var $cellButtonGroup = $('.carousel-nav');
       var $cellButtons = $cellButtonGroup.find('.collection-selector');
@@ -6300,10 +6300,10 @@ only 1 in 10 adults eat the recommended daily serving of fruits & veggies?</p>
         $('.collection-selector').filter('.is-selected').removeClass('is-selected');
         $(this).addClass('is-selected');
         console.log(slideIndex);
-        $carousel.flickity( 'select', slideIndex, true, false );
+        $carousel1.flickity( 'select', slideIndex, true, false );
       });
 
-      $carousel.on( 'change.flickity', function( event, index ) {
+      $carousel1.on( 'change.flickity', function( event, index ) {
         // console.log( 'Slide changed to ' + index );
         console.log('change on change on main func')
         var carouseIndex = index;
@@ -6333,6 +6333,7 @@ only 1 in 10 adults eat the recommended daily serving of fruits & veggies?</p>
 
 
 </div>
+
 
 
 <div id="shopify-section-template--15761723555997__164249911856ee15b7" class="shopify-section">
