@@ -4,12 +4,20 @@ font-size: 20px;
 margin-top: 50px;
 color: #212121 !important;
 }
+.title-featured1{
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 10px;
+    color: #212121 !important;
+    }
+
 .div-featured{
-/*padding-top:10px;*/
+padding-top:10px;
 width:90%;
 margin: 0 auto;
 text-align: center;
 }
+
 
 .product-card .product-card-inner .product-image-wrapper .product-image-inner .product-image.image-size-contain {
     width: 70%;

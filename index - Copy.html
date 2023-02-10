@@ -1,5 +1,5 @@
 <!doctype html>
-<html data-wf-page="6254b58a76e1f8729cff8dbf" data-wf-site="625096674843ef99b41c4b59" class="no-js" lang="en">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +13,7 @@
 
     
     <meta name="description" content="At Phyll, we&#39;re making healthy eating easier than ever! Now you can enjoy a delicious juice bar-quality smoothie, bottled up and ready to go with you anywhere. With 3 servings of fruits and vegetables, 15g of plant protein and no added sugar, Phyll plant-based smoothies keep you going no matter what your day brings.">
+    
 
     
 
@@ -2786,239 +2787,470 @@ for (var attr in meta) {
 
 
 <section class="mfr-core__product-carousel background  ">
-  <div class="grid-container full section_spacing_none_top section_spacing_medium_bottom product-carousel-container" style="padding-bottom:10rem;">
+  <div class="grid-container full section_spacing_none_top section_spacing_medium_bottom product-carousel-container" style="padding-bottom:0;">
     <div class="grid-x align-center product-carousel-section-template--15761723588765__16413248280531e94c" id="">
       <div class="cell small-12">
         <section  style="text-align: center; /*min-height: 80vh;/margin: 0;padding: 0;">
-          <link href="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/css/olipop-homepage-reimagination.webflow.e6d421bde.css" rel="stylesheet" type="text/css"/>
-          <style>
-            /*--------------------------------
-            Noise / Grain Styles
-            --------------------------------*/
-            .noiser {
-            z-index: 9999999999;
-            position: fixed;
-            top: 0;
-            left: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-flow: column;
-            height: 100vh;
-            background: transparent;
-            }
-            .noise {
-            z-index: 9999999999;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            pointer-events: none;
-            opacity: .13;
-            }
-            /* END Noise / Grain */
-            .swiper-nav-btn.show {
-            display: flex;
-            opacity: 1;
-            pointer-events: auto;
-            }
-            .control-btn.active {
-            background-color: #00ffe1;
-            color: #051328;
-            }
-            .preloader {
-            display: block;
-            }
-          </style>
-          <style>
-            .particles-js-canvas-el {
-            position: absolute;
-            max-width: 100%;
-            max-height:100%;
-            left: 0%;
-            top: 0%;
-            right: 0%;
-            bottom: 0%;
-            z-index: 0;
-            }
-            /* basic properties for the slider */
-            .swiper-wrapper{
-            transform-style: preserve-3d;
-            transition-property: transform;
-            box-sizing: content-box;
-            }
-            /* Fade text down if slide is not active */
-            #wheel-slider .swiper-slide .slide-heading, 
-            #wheel-slider .swiper-slide .slide-category {
-            transform: translateY(140%);
-            -webkit-transform: translateY(140%);
-            -moz-transform: translateY(140%);
-            -ms-transform: translateY(140%);
-            -o-transform: translateY(140%);
-            opacity: 0;
-            }
-            /* Fade category text up and down with a delay */
-            #wheel-slider .swiper-slide .slide-category {
-            transition-delay: 0.3s;
-            }
-            /* Fade heading text up and down with a delay */
-            #wheel-slider .swiper-slide .slide-heading {
-            transition-delay: 0.8s;
-            }
-            /* Transform the active slide */
-            #wheel-slider .swiper-slide.swiper-slide-active {
-            transform: rotate(0deg) translateY(0px) !important;
-            -webkit-transform: rotate(0deg) translateY(0px) !important;
-            -moz-transform: rotate(0deg) translateY(0px) !important;
-            -ms-transform: rotate(0deg) translateY(0px) !important;
-            -o-transform: rotate(0deg) translateY(0px) !important;
-            }
-            /* Fade text up if slide is active */
-            #wheel-slider .swiper-slide.swiper-slide-active .slide-heading, 
-            #wheel-slider .swiper-slide.swiper-slide-active .slide-category {
-            transform: translateY(0%);
-            -webkit-transform: translateY(0%);
-            -moz-transform: translateY(0%);
-            -ms-transform: translateY(0%);
-            -o-transform: translateY(0%);
-            opacity: 1.0;
-            }
-            /* Transform the first slides before */
-            #wheel-slider .swiper-slide.swiper-slide-prev { 
-            transform: rotate(-10deg) translateY(100px) !important; 
-            -webkit-transform: rotate(-10deg) translateY(100px) !important; 
-            -moz-transform: rotate(-10deg) translateY(100px) !important; 
-            -ms-transform: rotate(-10deg) translateY(100px) !important; 
-            -o-transform: rotate(-10deg) translateY(100px) !important;
-            }
-            /* Transform the first slide after */
-            #wheel-slider .swiper-slide.swiper-slide-next { 
-            transform: rotate(10deg) translateY(100px) !important; 
-            -webkit-transform: rotate(10deg) translateY(100px) !important; 
-            -moz-transform: rotate(10deg) translateY(100px) !important; 
-            -ms-transform: rotate(10deg) translateY(100px) !important; 
-            -o-transform: rotate(10deg) translateY(100px) !important;
-            }
-            /* Transform all slides after */
-            #wheel-slider .swiper-slide.swiper-slide-next + .swiper-slide{
-            transform: rotate(20deg) translateY(400px) !important;
-            -webkit-transform: rotate(20deg) translateY(400px) !important;
-            -moz-transform: rotate(20deg) translateY(400px) !important;
-            -ms-transform: rotate(20deg) translateY(400px) !important;
-            -o-transform: rotate(20deg) translateY(400px) !important;
-            }
-            /* Transform all slides before */
-            #wheel-slider .swiper-slide{
-            transform: rotate(-20deg) translateY(400px) !important;
-            -webkit-transform: rotate(-20deg) translateY(400px) !important;
-            -moz-transform: rotate(-20deg) translateY(400px) !important;
-            -ms-transform: rotate(-20deg) translateY(400px) !important;
-            -o-transform: rotate(-20deg) translateY(400px) !important;
-            }
-            span.percentage span{
-            }
-            .section-wave.overflow.bg-light-coral {
-            margin-top: -10px!Important;
-            }
-            .div-block-4 {
-            margin-top: -14px!important;
-            }
-            .waves666{
-            width: 100%;
-            display:block;
-            height: 200px;
-            z-index: 1;
-            overflow: hidden;
-            }
-            .waves777{
-            width: 100%;
-            display:block;
-            height: 100px;
-            z-index: 1;
-            overflow: hidden;
-            }
-            .waves{
-            width: 100%;
-            display:block;
-            height: 200px;
-            z-index: 1;
-            overflow: hidden;
-            }
-            .waves888{
-            }
-            .waves{
-            width: 100%;
-            display:block;
-            height: 200px;
-            overflow: hidden;
-            }
-            .slow,.medium{
-            animation: move-forever 3s linear infinite;
-            transform-origin: 50% 50%;
-            }
-            .slow{
-            animation-delay: -4s;
-            }
-            .medium{
-            animation-delay: -4s;
-            animation: geri-forever 1s linear infinite;
-            }
-            @keyframes move-forever{
-            0%{
-            transform: translate(-90px, 0%)}
-            100%{
-            transform: translate(85px, 0%)}
-            }
-            @keyframes geri-forever{
-            0%{
-            transform: translate(85px, 0%)}
-            100%{
-            transform: translate(-90px, 0%)}
-            }
-          </style>
-          <div class="section wf-section">
-            <div data-w-id="77810361-ca4b-73dd-6218-2aa086cabce2" class="hero_header" style="position: relative;height: 70vh;">
-               <div id="particles-js" class="hero__header__wrapper">
-                  <div class="hero__can__images">
-                     <div class="frame__image__wrapper">
-                        <div class="div-block-root-beer rotate"><div class="can-2"><a href=""><img src="img/products/ejemplo/6251b9d1de29e715a3f019b6_download%20(1).png" loading="lazy" alt=""/><div class="div-featured"><span class="button_text title-featured1">THC Gummy Sampler Pack</span></div></a></div></div>
-                     </div>
-                     <div class="frame__image__wrapper">
-                        <div class="div-block-tropical rotate"><div class="can-2"><a href=""><img src="img/products/ejemplo/6251b9d2bd7bcb8dea171701_TP_MainProductPage_1251x2330.png" loading="lazy" alt="" /><div class="div-featured"><span class="button_text title-featured1">THC Gummy Sampler Pack</span></div></a></div></div>
-                     </div>
-                     <div class="frame__image__wrapper">
-                        <div class="div-block-grape rotate-2"><div class="can-2"><a href=""><img src="img/products/ejemplo/6251b9d28522bc5c5076d3a6_download.png" loading="lazy" alt=""/><div class="div-featured"><span class="button_text title-featured1">THC Gummy Sampler Pack</span></div></a></div></div>
-                     </div>
-                     <div class="frame__image__wrapper">
-                        <div class="div-block-orange rotate-2"><div class="can-2"><a href=""><img src="img/products/ejemplo/6251b9d27648be9f39bee1fd_download%20(2).png" loading="lazy" alt=""/><div class="div-featured"><span class="button_text title-featured1">THC Gummy Sampler Pack</span></div></a></div></div>
-                     </div>
-                     <div class="frame__image__wrapper">
-                        <div class="div-block-cherry rotate-2"><div class="can-2"><a href=""><img src="img/products/ejemplo/6251b9d19ff4097ff765a6e2_download%20(4).png" loading="lazy" alt=""/><div class="div-featured"><span class="button_text title-featured1">THC Gummy Sampler Pack</span></div></a></div></div>
-                     </div>
-          
-                  </div>
-               </div>
-          
-               <!--<div class="hero__header__wrapper mobile">
-                  <div class="hero__header__content is--middle">
-                     <div class="hero__can__images">
-                        <div class="div-block-125 _2">
-                           <div class="div-block-grape rotate-2"><img src="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/6251b9d1de29e715a3f019b6_download%20(1).png" loading="lazy" alt="" class="can-2"/></div>
+          <div class="container">
+            <div class="product-carousel" id="product-carouseltemplate--15761723588765__16413248280531e94c" style="margin:0 auto; /*border: solid red;*/ height:600px;">
+              <div class="box">
+                <div class="product-card carousel-cell cell  odd  floating">
+                  <style data-shopify>
+                    @media print, screen and (min-width: 40em) {
+                      .product-card .product-7231398183069 .product-card__add-to-cart-plus:hover {
+                        background-color: #ffc31a;
+                      }
+                    }
+    
+                    .product-card .product-7231398183069 .card-background {
+                      background: #ffc31a;
+                      background: linear-gradient(0deg, #ffc31a 80px, #ffc31a 100%);
+                    }
+                    .product-card .product-7231398183069 .product-card__add-to-cart-plus,
+                    .product-card .product-7231398183069 .button,
+                    .product-card .product-7231398183069 .product-card__price { border: 9px #ffc31a solid !important; }
+    
+                  </style>
+    
+    
+                  <div class="product-card-inner product-7231398183069">
+    
+                    <span class="visually-hidden">Greenfest</span>
+    
+                    <a href="/products/greenfest" class="product-image-wrapper">
+                      <div class="product-image-inner">
+                        <div class="primary-image product-image image-size-contain">
+                          <img srcset="img/products/THC-Gummy-Sampler-CUT-300x300.webp"
+                            src="img/products/THC-Gummy-Sampler-CUT-300x300.webp"
+                            sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                            alt="Greenfest"
+                            loading="lazy"
+                            class="motion-reduce"
+                            width="213"
+                            height="365"
+                          >
+                          <div class="shadow">
+                            <img loading="lazy" src="img/products/THC-Gummy-Sampler-CUT-300x300.webp" alt="shadow">
+                          </div>
+    
+                          <div class="div-featured">
+                            <span class="button_text title-featured">THC Gummy Sampler Pack</span>    
+                          </div>
+                      
                         </div>
-                        <div class="div-block-ginger rotate"><img src="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/6251b9d149962c2921b6ccc5_download%20(5).png" loading="lazy" alt="" class="can-2"/></div>
-                        <div class="div-block-tropical rotate"><img src="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/6251b9d2bd7bcb8dea171701_TP_MainProductPage_1251x2330.png" loading="lazy" alt="" class="can-2"/></div>
-                        <div class="div-block-orange rotate-2"><img src="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/6251b9d27648be9f39bee1fd_download%20(2).png" loading="lazy" alt="" class="can-2"/></div>
-                        <div class="div-block-125">
-                           <div class="div-block-grape rotate-2"><img src="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/6251b9d28522bc5c5076d3a6_download.png" loading="lazy" alt="" class="can-2"/></div>
+                      </div>
+                      
+                      <div class="fruits">
+                        
+                        <!--<div class="fruit fruit-1">
+                          <div class="image" data-aos="zoom-in">
+                            <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/mango2_small.png?v=1642474980;"
+                            srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/mango2_small.png?v=1642474980 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/mango2.png?v=1642474980 2x"
+                            alt="Phyll"
+                            itemprop="image">
+                          </div>
                         </div>
-                        <div class="div-block-cherry rotate-2"><img src="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/6251b9d19ff4097ff765a6e2_download%20(4).png" loading="lazy" alt="" class="can-2"/></div>
-                     </div>
+                        
+                        
+                        <div class="fruit fruit-2">
+                          <div class="image" data-aos="zoom-in">
+                            <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/kiwi_small.png?v=1641425575;"
+                            srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/kiwi_small.png?v=1641425575 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/kiwi.png?v=1641425575 2x"
+                            alt="Phyll"
+                            itemprop="image">
+                          </div>
+                        </div>
+                        
+                        
+                        <div class="fruit kale">
+                          
+                          <div class="image" data-aos="zoom-in">
+                            <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x.png?v=1641425575;"
+                            srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x.png?v=1641425575 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x@2x.png?v=1641425575 2x"
+                            alt="Phyll"
+                            itemprop="image">
+                          </div>
+                        </div>-->
+                      </div>
+                    </a>
+    
+    
+    
+                    <a href="/products/greenfest" class="card-background"></a>
+    
+                    <div class="product-details-wrapper">
+                      <div class="product-details-inner add_to_cart">
+                          
+                        <a href="/products/greenfest" class="button product-card__shop-now primary   arrow " >
+                          <span class="button_text">View Now</span>
+                          
+                            <span class="arrow">
+                              <svg width="22" height="18" xmlns="http://www.w3.org/2000/svg">
+                            <g stroke="#450073" stroke-width="3" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                              <path d="m2.086 2 7.299 6.819-7.299 6.82M12.086 2l7.299 6.819-7.299 6.82"/>
+                            </g>
+                          </svg></span>
+                          
+                        </a>
+                  
+                        <div class="product-card__add-to-cart-plus">
+                          
+                            <div class="text">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 56"><g fill="#212121" fill-rule="evenodd"><path d="m7.771 50.829-1.24-1.454.747-.705c-.42-.333-1.036-.526-1.834-.539l-.103-.001c-1.559-.026-2.408.716-2.426 1.889-.02 1.16.794 1.916 2.378 1.942l.102.002c1.263.02 2.069-.41 2.376-1.134Zm2.307-1.709c.046.34.079.705.074 1.07-.05 3.05-1.998 4.894-4.793 4.848l-.102-.002C2.41 54.99.603 52.771.649 49.982c.045-2.867 1.779-4.989 4.69-4.942l.103.002c1.61.026 2.913.673 3.733 1.781l.877-.858 1.596 1.642-1.57 1.513ZM6.737 43.863 1.648 42.51l.682-2.922 4.979 1.322c1.126.3 1.743.19 1.988-.858.24-1.035-.256-1.441-1.395-1.745l-4.967-1.32.688-2.948 5.064 1.345c2.604.692 3.37 2.653 2.766 5.24-.63 2.703-2.246 3.895-4.716 3.239M4.648 31.574l1.23-2.535 8.77 3.466-1.229 2.534zM10.978 29.089l-.088-.058c-2.435-1.588-2.88-4.377-1.366-6.704 1.387-2.13 3.29-2.93 5.55-1.724l-1.681 2.582c-.777-.398-1.436-.278-1.889.418-.589.904-.243 1.915 1.09 2.786l.089.057c1.311.854 2.383.8 3.015-.17.46-.706.426-1.452-.31-2.057l1.623-2.493c1.985 1.484 2.085 3.717.729 5.802-1.853 2.846-4.349 3.135-6.762 1.56M13.648 16.727l2.151-1.956 2.507 2.392-.631-4.099 2.226-2.025.675 5.076 6.072 1.116-2.473 2.249-4.408-.922 2.645 2.525-2.151 1.956zM31.817 10.358l1.642-.769-2.256-2.58.614 3.349Zm-3.169-4.721 3.414-1.598 6.586 6.953-2.797 1.31-1.046-1.182-2.633 1.233.288 1.535L30 15.04l-1.352-9.402Z"/><path d="M41.282 8.09c1.328-.315 1.741-1.142 1.403-2.717l-.022-.101c-.355-1.651-1.07-2.116-2.387-1.802l-.442.105.994 4.625.454-.11Zm-4.634-6.06 3.265-.778c3.063-.73 4.948.436 5.562 3.297l.02.088c.616 2.872-.631 4.905-3.646 5.624l-3.265.778-1.936-9.01ZM51.354 6.809c1.503-.022 2.127-.72 2.1-2.283l-.002-.1c-.028-1.64-.703-2.23-2.191-2.207l-.502.007.08 4.591.515-.008ZM47.648.096 51.343.04c3.467-.053 5.253 1.448 5.303 4.287l.001.088c.05 2.851-1.735 4.517-5.147 4.568l-3.696.055-.156-8.943Z"/></g></svg>
+                            </div>
+                
+                            <form data-cart-submit data-product-id="7231398183069">
+                              
+                              
+                              <input type="hidden" name="id" data-productid="7231398183069" value="41816688296093">
+                              <input name="properties[_bg_color]" type="hidden" value="#02e088" />
+                              <input name="properties[_highlight_color]" type="hidden" value="#c9ff57" /><input name="properties[_available_selling_plan]" type="hidden" value="778076317" />
+    
+                              <select name="id" style="display:none">
+                                
+                                <option value="41816688296093">6 Pack - $29.99</option>
+                              
+                              </select>
+    
+                              <button class="add-to-cart-plus" data-open="offCanvasCart" type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" fill="none" viewBox="0 0 10 10">
+                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
+                                </svg>
+    
+                              </button>
+    
+                            </form>
+    
+    
+              
+                        </div>
+                      </div>
+                    </div>
                   </div>
-               </div>-->
-               <div class="bg-change-1"></div>
-               <div class="bg-change-1 mobile"></div>
+    
+    
+                </div>
+
+              </div>
+              <div class="box1">
+                <div class="product-card carousel-cell cell  even  floating">
+                  <style data-shopify>
+                    @media print, screen and (min-width: 40em) {
+                      .product-card .product-7231398314141 .product-card__add-to-cart-plus:hover {
+                        background-color: #ffc31a;
+                      }
+                    }
+    
+                    .product-card .product-7231398314141 .card-background {
+                      background: #ffc31a;
+                      background: linear-gradient(0deg, #ffc31a 80px, #ffc31a 100%);
+                    }
+                    .product-card .product-7231398314141 .product-card__add-to-cart-plus,
+                    .product-card .product-7231398314141 .button,
+                    .product-card .product-7231398314141 .product-card__price { border: 9px #ffc31a solid !important; }
+    
+                  </style>
+                  <div class="product-card-inner product-7231398314141">
+    
+                    <span class="visually-hidden">Mixed Berry</span>
+    
+                    <a href="/products/mixed-berry" class="product-image-wrapper">
+                      <div class="product-image-inner">
+                        <div class="primary-image product-image image-size-contain">
+                          <img srcset="img/products/Blue-Zkittles-Delta-8-Pre-Rolls-WEB-300x300.webp"
+                            src="img/products/Blue-Zkittles-Delta-8-Pre-Rolls-WEB-300x300.webp"
+                            sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                            alt="Mixed Berry"
+                            loading="lazy"
+                            class="motion-reduce"
+                            width="213"
+                            height="365"
+                          >
+                          <div class="shadow">
+                            <img loading="lazy" src="img/products/Blue-Zkittles-Delta-8-Pre-Rolls-WEB-300x300.webp" alt="shadow">
+                          </div>
+                          <div class="div-featured">
+                            <span class="button_text title-featured">Pinnacle Hemp Delta 8 Pre Roll 2Pk</span>    
+                          </div>
+                        </div></div>
+                      
+                        <div class="fruits">
+                          
+                          <!--<div class="fruit fruit-1">
+                            
+                        <div class="image" data-aos="zoom-in">
+                          <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/strawberry_small.png?v=1641458249;"
+                          srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/strawberry_small.png?v=1641458249 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/strawberry.png?v=1641458249 2x"
+                          alt="Phyll"
+                          itemprop="image">
+                        </div>
+                          </div>
+                          
+                          
+                          <div class="fruit fruit-2">
+                            
+                        <div class="image" data-aos="zoom-in">
+                          <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/blueberry_small.png?v=1641425575;"
+                          srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/blueberry_small.png?v=1641425575 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/blueberry.png?v=1641425575 2x"
+                          alt="Phyll"
+                          itemprop="image">
+                        </div>
+                          </div>
+                          
+                          
+                          <div class="fruit kale">
+                            
+                        <div class="image" data-aos="zoom-in">
+                          <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x.png?v=1641425575;"
+                          srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x.png?v=1641425575 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x@2x.png?v=1641425575 2x"
+                          alt="Phyll"
+                          itemprop="image">
+                        </div>
+                          </div>-->
+                          
+                        </div>
+    
+                    </a>
+    
+                    <a href="/products/mixed-berry" class="card-background"></a>
+    
+                    <div class="product-details-wrapper">
+                      <div class="product-details-inner add_to_cart">
+                  <a href="/products/mixed-berry" class="button product-card__shop-now primary   arrow " >
+                    <span class="button_text">View Now</span>
+                    
+                      <span class="arrow"><svg width="22" height="18" xmlns="http://www.w3.org/2000/svg">
+                      <g stroke="#450073" stroke-width="3" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                        <path d="m2.086 2 7.299 6.819-7.299 6.82M12.086 2l7.299 6.819-7.299 6.82"/>
+                      </g>
+                    </svg></span>
+                    
+                  </a>
+                          
+                    <div class="product-card__add-to-cart-plus">
+                      
+                        <div class="text">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 56"><g fill="#212121" fill-rule="evenodd"><path d="m7.771 50.829-1.24-1.454.747-.705c-.42-.333-1.036-.526-1.834-.539l-.103-.001c-1.559-.026-2.408.716-2.426 1.889-.02 1.16.794 1.916 2.378 1.942l.102.002c1.263.02 2.069-.41 2.376-1.134Zm2.307-1.709c.046.34.079.705.074 1.07-.05 3.05-1.998 4.894-4.793 4.848l-.102-.002C2.41 54.99.603 52.771.649 49.982c.045-2.867 1.779-4.989 4.69-4.942l.103.002c1.61.026 2.913.673 3.733 1.781l.877-.858 1.596 1.642-1.57 1.513ZM6.737 43.863 1.648 42.51l.682-2.922 4.979 1.322c1.126.3 1.743.19 1.988-.858.24-1.035-.256-1.441-1.395-1.745l-4.967-1.32.688-2.948 5.064 1.345c2.604.692 3.37 2.653 2.766 5.24-.63 2.703-2.246 3.895-4.716 3.239M4.648 31.574l1.23-2.535 8.77 3.466-1.229 2.534zM10.978 29.089l-.088-.058c-2.435-1.588-2.88-4.377-1.366-6.704 1.387-2.13 3.29-2.93 5.55-1.724l-1.681 2.582c-.777-.398-1.436-.278-1.889.418-.589.904-.243 1.915 1.09 2.786l.089.057c1.311.854 2.383.8 3.015-.17.46-.706.426-1.452-.31-2.057l1.623-2.493c1.985 1.484 2.085 3.717.729 5.802-1.853 2.846-4.349 3.135-6.762 1.56M13.648 16.727l2.151-1.956 2.507 2.392-.631-4.099 2.226-2.025.675 5.076 6.072 1.116-2.473 2.249-4.408-.922 2.645 2.525-2.151 1.956zM31.817 10.358l1.642-.769-2.256-2.58.614 3.349Zm-3.169-4.721 3.414-1.598 6.586 6.953-2.797 1.31-1.046-1.182-2.633 1.233.288 1.535L30 15.04l-1.352-9.402Z"/><path d="M41.282 8.09c1.328-.315 1.741-1.142 1.403-2.717l-.022-.101c-.355-1.651-1.07-2.116-2.387-1.802l-.442.105.994 4.625.454-.11Zm-4.634-6.06 3.265-.778c3.063-.73 4.948.436 5.562 3.297l.02.088c.616 2.872-.631 4.905-3.646 5.624l-3.265.778-1.936-9.01ZM51.354 6.809c1.503-.022 2.127-.72 2.1-2.283l-.002-.1c-.028-1.64-.703-2.23-2.191-2.207l-.502.007.08 4.591.515-.008ZM47.648.096 51.343.04c3.467-.053 5.253 1.448 5.303 4.287l.001.088c.05 2.851-1.735 4.517-5.147 4.568l-3.696.055-.156-8.943Z"/></g></svg>
+                        </div>
+                        
+    
+    
+    
+    
+                    <form data-cart-submit data-product-id="7231398314141">
+                      
+                      
+                  <input type="hidden" name="id" data-productid="7231398314141" value="41879090987165">
+                  <input name="properties[_bg_color]" type="hidden" value="#ae58ff" />
+                  <input name="properties[_highlight_color]" type="hidden" value="#a1d9ff" /><input name="properties[_available_selling_plan]" type="hidden" value="778109085" />
+    
+                      <select name="id" style="display:none">
+                        
+                        <option value="41879090987165">6 Pack - $29.99</option>
+                      
+                      </select>
+    
+                      <button class="add-to-cart-plus" data-open="offCanvasCart" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" fill="none" viewBox="0 0 10 10">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
+                  </svg>
+    
+                      </button>
+    
+                    </form>
+    
+    
+                      
+                    </div>
+                    
+                        
+                        
+                        
+                    
+                      </div>
+                    </div>
+    
+    
+    
+    
+                  </div>
+    
+                </div>
+  
+              </div>
+              <div class="box2">
+                <div class="product-card carousel-cell cell  odd  floating">
+                  <style data-shopify>
+        @media print, screen and (min-width: 40em) {
+          .product-card .product-7231398346909 .product-card__add-to-cart-plus:hover {
+            background-color: #ffc31a;
+          }
+        }
+    
+        .product-card .product-7231398346909 .card-background {
+          background: #ffc31a;
+          background: linear-gradient(0deg, #ffc31a 80px, #ffc31a 100%);
+        }
+        .product-card .product-7231398346909 .product-card__add-to-cart-plus,
+        .product-card .product-7231398346909 .button,
+        .product-card .product-7231398346909 .product-card__price { border: 9px #ffc31a solid !important; }
+    
+      </style>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <div class="product-card-inner product-7231398346909">
+    
+        <span class="visually-hidden">Chocolate</span>
+    
+        <a href="/products/chocolate" class="product-image-wrapper">
+          <div class="product-image-inner">
+            <div class="primary-image product-image image-size-contain">
+              <img srcset="img/products/Bacon-Cheese-Dog-Chews-30pc-CUT.webp"
+                src="img/products/Bacon-Cheese-Dog-Chews-30pc-CUT.webp"
+                sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                alt="Chocolate"
+                loading="lazy"
+                class="motion-reduce"
+                width="213"
+                height="365"
+              >
+              <div class="shadow">
+                <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/products/CH-Pillars-Lighting-No-Transparent_100x.png?v=1659476377" alt="shadow">
+              </div>
+              <div class="div-featured">
+                <span class="button_text title-featured">Bacon and Cheese CBD Dog Chews</span>    
+              </div>
+            </div></div>
+          
+        <div class="fruits">
+          
+          <div class="fruit fruit-1">
+            
+        <!--<div class="image" data-aos="zoom-in">
+          <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/strawberry_b3ec45d7-ef85-479e-a03f-4d0508da31a2_small.png?v=1643316929;"
+          srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/strawberry_b3ec45d7-ef85-479e-a03f-4d0508da31a2_small.png?v=1643316929 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/strawberry_b3ec45d7-ef85-479e-a03f-4d0508da31a2.png?v=1643316929 2x"
+          alt="Phyll"
+          itemprop="image">
+        </div>
+          </div>
+          
+          
+          <div class="fruit fruit-2">
+            
+        <div class="image" data-aos="zoom-in">
+          <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/bananna2_small.png?v=1643397308;"
+          srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/bananna2_small.png?v=1643397308 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/bananna2.png?v=1643397308 2x"
+          alt="Phyll"
+          itemprop="image">
+        </div>
+          </div>
+          
+          
+          <div class="fruit kale">
+            
+        <div class="image" data-aos="zoom-in">
+          <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x.png?v=1641425575;"
+          srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x.png?v=1641425575 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x@2x.png?v=1641425575 2x"
+          alt="Phyll"
+          itemprop="image">
+        </div>-->
+          </div>
+          
+        </div>
+    
+        </a>
+    
+        <a href="/products/chocolate" class="card-background"></a>
+    
+        <div class="product-details-wrapper">
+          <div class="product-details-inner add_to_cart">
+              
+      <a href="/products/chocolate" class="button product-card__shop-now primary   arrow " >
+        <span class="button_text">View Now</span>
+        
+          <span class="arrow"><svg width="22" height="18" xmlns="http://www.w3.org/2000/svg">
+          <g stroke="#450073" stroke-width="3" fill="none" fill-rule="evenodd" stroke-linecap="round">
+            <path d="m2.086 2 7.299 6.819-7.299 6.82M12.086 2l7.299 6.819-7.299 6.82"/>
+          </g>
+        </svg></span>
+        
+      </a>
+              
+        <div class="product-card__add-to-cart-plus">
+          
+            <div class="text">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 56"><g fill="#212121" fill-rule="evenodd"><path d="m7.771 50.829-1.24-1.454.747-.705c-.42-.333-1.036-.526-1.834-.539l-.103-.001c-1.559-.026-2.408.716-2.426 1.889-.02 1.16.794 1.916 2.378 1.942l.102.002c1.263.02 2.069-.41 2.376-1.134Zm2.307-1.709c.046.34.079.705.074 1.07-.05 3.05-1.998 4.894-4.793 4.848l-.102-.002C2.41 54.99.603 52.771.649 49.982c.045-2.867 1.779-4.989 4.69-4.942l.103.002c1.61.026 2.913.673 3.733 1.781l.877-.858 1.596 1.642-1.57 1.513ZM6.737 43.863 1.648 42.51l.682-2.922 4.979 1.322c1.126.3 1.743.19 1.988-.858.24-1.035-.256-1.441-1.395-1.745l-4.967-1.32.688-2.948 5.064 1.345c2.604.692 3.37 2.653 2.766 5.24-.63 2.703-2.246 3.895-4.716 3.239M4.648 31.574l1.23-2.535 8.77 3.466-1.229 2.534zM10.978 29.089l-.088-.058c-2.435-1.588-2.88-4.377-1.366-6.704 1.387-2.13 3.29-2.93 5.55-1.724l-1.681 2.582c-.777-.398-1.436-.278-1.889.418-.589.904-.243 1.915 1.09 2.786l.089.057c1.311.854 2.383.8 3.015-.17.46-.706.426-1.452-.31-2.057l1.623-2.493c1.985 1.484 2.085 3.717.729 5.802-1.853 2.846-4.349 3.135-6.762 1.56M13.648 16.727l2.151-1.956 2.507 2.392-.631-4.099 2.226-2.025.675 5.076 6.072 1.116-2.473 2.249-4.408-.922 2.645 2.525-2.151 1.956zM31.817 10.358l1.642-.769-2.256-2.58.614 3.349Zm-3.169-4.721 3.414-1.598 6.586 6.953-2.797 1.31-1.046-1.182-2.633 1.233.288 1.535L30 15.04l-1.352-9.402Z"/><path d="M41.282 8.09c1.328-.315 1.741-1.142 1.403-2.717l-.022-.101c-.355-1.651-1.07-2.116-2.387-1.802l-.442.105.994 4.625.454-.11Zm-4.634-6.06 3.265-.778c3.063-.73 4.948.436 5.562 3.297l.02.088c.616 2.872-.631 4.905-3.646 5.624l-3.265.778-1.936-9.01ZM51.354 6.809c1.503-.022 2.127-.72 2.1-2.283l-.002-.1c-.028-1.64-.703-2.23-2.191-2.207l-.502.007.08 4.591.515-.008ZM47.648.096 51.343.04c3.467-.053 5.253 1.448 5.303 4.287l.001.088c.05 2.851-1.735 4.517-5.147 4.568l-3.696.055-.156-8.943Z"/></g></svg>
             </div>
+            
+    
+    
+    
+    
+        <form data-cart-submit data-product-id="7231398346909">
+          
+          
+      <input type="hidden" name="id" data-productid="7231398346909" value="41879089283229">
+      <input name="properties[_bg_color]" type="hidden" value="#a76e34" />
+      <input name="properties[_highlight_color]" type="hidden" value="#895edd" /><input name="properties[_available_selling_plan]" type="hidden" value="778043549" />
+    
+          <select name="id" style="display:none">
+            
+            <option value="41879089283229">6 Pack - $29.99</option>
+          
+          </select>
+    
+          <button class="add-to-cart-plus" data-open="offCanvasCart" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" fill="none" viewBox="0 0 10 10">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
+      </svg>
+    
+          </button>
+    
+        </form>
+    
+    
+          
+        </div>
+        
+            
+            
+            
+        
+          </div>
+        </div>
+    
+    
+    
+    
+      </div>
+    
+                </div>
+  
+              </div>
+
+
+            </div>
+
           </div>
              
         </section>
@@ -4828,7 +5060,7 @@ only 1 in 10 adults eat the recommended daily serving of fruits & veggies?</p>
 
   <div class="section_spacing_large_top section_spacing_medium_bottom">
 
-    <div class="grid-container  full  " style="padding-bottom: 0;">
+    <div class="grid-container  full  ">
       <div class="inner     ">
   
   
@@ -5367,6 +5599,10 @@ only 1 in 10 adults eat the recommended daily serving of fruits & veggies?</p>
 
 
 
+
+
+
+
 </div>
 
 
@@ -5374,6 +5610,18 @@ only 1 in 10 adults eat the recommended daily serving of fruits & veggies?</p>
 
 <div id="shopify-section-template--15761724145821__1642251543985a82b8" class="shopify-section">
 
+
+
+
+
+
+
+
+
+
+
+  
+  
   <script type="text/javascript">
   jQuery(function(){
     carouseInit1();
@@ -5430,240 +5678,654 @@ only 1 in 10 adults eat the recommended daily serving of fruits & veggies?</p>
         
       </h1>
     </div>
-<!--Style animacion articles-->
-    <link href="css/olipop-homepage-reimagination.webflow.e6d421bde.css" rel="stylesheet" type="text/css"/>
-<style>
-  /*--------------------------------
-  Noise / Grain Styles
-  --------------------------------*/
-  .noiser {
-  z-index: 9999999999;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
-  height: 100vh;
-  background: transparent;
-  }
-  .noise {
-  z-index: 9999999999;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  pointer-events: none;
-  opacity: .13;
-  }
-  /* END Noise / Grain */
-  .swiper-nav-btn.show {
-  display: flex;
-  opacity: 1;
-  pointer-events: auto;
-  }
-  .control-btn.active {
-  background-color: #00ffe1;
-  color: #051328;
-  }
-  .preloader {
-  display: block;
-  }
-</style>
-<style>
-  .particles-js-canvas-el {
-  position: absolute;
-  max-width: 100%;
-  max-height:100%;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  z-index: 0;
-  }
-  /* basic properties for the slider */
-  .swiper-wrapper{
-  transform-style: preserve-3d;
-  transition-property: transform;
-  box-sizing: content-box;
-  }
-  /* Fade text down if slide is not active */
-  #wheel-slider .swiper-slide .slide-heading, 
-  #wheel-slider .swiper-slide .slide-category {
-  transform: translateY(140%);
-  -webkit-transform: translateY(140%);
-  -moz-transform: translateY(140%);
-  -ms-transform: translateY(140%);
-  -o-transform: translateY(140%);
-  opacity: 0;
-  }
-  /* Fade category text up and down with a delay */
-  #wheel-slider .swiper-slide .slide-category {
-  transition-delay: 0.3s;
-  }
-  /* Fade heading text up and down with a delay */
-  #wheel-slider .swiper-slide .slide-heading {
-  transition-delay: 0.8s;
-  }
-  /* Transform the active slide */
-  #wheel-slider .swiper-slide.swiper-slide-active {
-  transform: rotate(0deg) translateY(0px) !important;
-  -webkit-transform: rotate(0deg) translateY(0px) !important;
-  -moz-transform: rotate(0deg) translateY(0px) !important;
-  -ms-transform: rotate(0deg) translateY(0px) !important;
-  -o-transform: rotate(0deg) translateY(0px) !important;
-  }
-  /* Fade text up if slide is active */
-  #wheel-slider .swiper-slide.swiper-slide-active .slide-heading, 
-  #wheel-slider .swiper-slide.swiper-slide-active .slide-category {
-  transform: translateY(0%);
-  -webkit-transform: translateY(0%);
-  -moz-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  -o-transform: translateY(0%);
-  opacity: 1.0;
-  }
-  /* Transform the first slides before */
-  #wheel-slider .swiper-slide.swiper-slide-prev { 
-  transform: rotate(-10deg) translateY(100px) !important; 
-  -webkit-transform: rotate(-10deg) translateY(100px) !important; 
-  -moz-transform: rotate(-10deg) translateY(100px) !important; 
-  -ms-transform: rotate(-10deg) translateY(100px) !important; 
-  -o-transform: rotate(-10deg) translateY(100px) !important;
-  }
-  /* Transform the first slide after */
-  #wheel-slider .swiper-slide.swiper-slide-next { 
-  transform: rotate(10deg) translateY(100px) !important; 
-  -webkit-transform: rotate(10deg) translateY(100px) !important; 
-  -moz-transform: rotate(10deg) translateY(100px) !important; 
-  -ms-transform: rotate(10deg) translateY(100px) !important; 
-  -o-transform: rotate(10deg) translateY(100px) !important;
-  }
-  /* Transform all slides after */
-  #wheel-slider .swiper-slide.swiper-slide-next + .swiper-slide{
-  transform: rotate(20deg) translateY(400px) !important;
-  -webkit-transform: rotate(20deg) translateY(400px) !important;
-  -moz-transform: rotate(20deg) translateY(400px) !important;
-  -ms-transform: rotate(20deg) translateY(400px) !important;
-  -o-transform: rotate(20deg) translateY(400px) !important;
-  }
-  /* Transform all slides before */
-  #wheel-slider .swiper-slide{
-  transform: rotate(-20deg) translateY(400px) !important;
-  -webkit-transform: rotate(-20deg) translateY(400px) !important;
-  -moz-transform: rotate(-20deg) translateY(400px) !important;
-  -ms-transform: rotate(-20deg) translateY(400px) !important;
-  -o-transform: rotate(-20deg) translateY(400px) !important;
-  }
-  span.percentage span{
-  }
-  .section-wave.overflow.bg-light-coral {
-  margin-top: -10px!Important;
-  }
-  .div-block-4 {
-  margin-top: -14px!important;
-  }
-  .waves666{
-  width: 100%;
-  display:block;
-  height: 200px;
-  z-index: 1;
-  overflow: hidden;
-  }
-  .waves777{
-  width: 100%;
-  display:block;
-  height: 100px;
-  z-index: 1;
-  overflow: hidden;
-  }
-  .waves{
-  width: 100%;
-  display:block;
-  height: 200px;
-  z-index: 1;
-  overflow: hidden;
-  }
-  .waves888{
-  }
-  .waves{
-  width: 100%;
-  display:block;
-  height: 200px;
-  overflow: hidden;
-  }
-  .slow,.medium{
-  animation: move-forever 3s linear infinite;
-  transform-origin: 50% 50%;
-  }
-  .slow{
-  animation-delay: -4s;
-  }
-  .medium{
-  animation-delay: -4s;
-  animation: geri-forever 1s linear infinite;
-  }
-  @keyframes move-forever{
-  0%{
-  transform: translate(-90px, 0%)}
-  100%{
-  transform: translate(85px, 0%)}
-  }
-  @keyframes geri-forever{
-  0%{
-  transform: translate(85px, 0%)}
-  100%{
-  transform: translate(-90px, 0%)}
-  }
-</style>
-<div class="section wf-section">
-  <div data-w-id="77810361-ca4b-73dd-6218-2aa086cabce2" class="hero_header" style="position: relative;height: 70vh;">
-     <div id="particles-js" class="hero__header__wrapper">
-        <div class="hero__can__images">
-           <div class="frame__image__wrapper">
-              <div class="div-block-root-beer rotate"><div class="can-2"><a href=""><img src="img/products/ejemplo/6251b9d1de29e715a3f019b6_download%20(1).png" loading="lazy" alt=""/><div class="div-featured"><span class="button_text title-featured1">THC Gummy Sampler Pack</span></div></a></div></div>
-           </div>
-           <div class="frame__image__wrapper">
-              <div class="div-block-tropical rotate"><div class="can-2"><a href=""><img src="img/products/ejemplo/6251b9d2bd7bcb8dea171701_TP_MainProductPage_1251x2330.png" loading="lazy" alt="" /><div class="div-featured"><span class="button_text title-featured1">THC Gummy Sampler Pack</span></div></a></div></div>
-           </div>
-           <div class="frame__image__wrapper">
-              <div class="div-block-grape rotate-2"><div class="can-2"><a href=""><img src="img/products/ejemplo/6251b9d28522bc5c5076d3a6_download.png" loading="lazy" alt=""/><div class="div-featured"><span class="button_text title-featured1">THC Gummy Sampler Pack</span></div></a></div></div>
-           </div>
-           <div class="frame__image__wrapper">
-              <div class="div-block-orange rotate-2"><div class="can-2"><a href=""><img src="img/products/ejemplo/6251b9d27648be9f39bee1fd_download%20(2).png" loading="lazy" alt=""/><div class="div-featured"><span class="button_text title-featured1">THC Gummy Sampler Pack</span></div></a></div></div>
-           </div>
-           <div class="frame__image__wrapper">
-              <div class="div-block-cherry rotate-2"><div class="can-2"><a href=""><img src="img/products/ejemplo/6251b9d19ff4097ff765a6e2_download%20(4).png" loading="lazy" alt=""/><div class="div-featured"><span class="button_text title-featured1">THC Gummy Sampler Pack</span></div></a></div></div>
-           </div>
+  
+    
+    <div class="grid-x align-center product-carousel-section-template--15761724145821__1642251543985a82b8" id="">
+      <div class="cell small-12"><div class="product-carousel" id="product-carouseltemplate--15761724145821__1642251543985a82b8">
 
-        </div>
-     </div>
+    
+      
 
-     <!--<div class="hero__header__wrapper mobile">
-        <div class="hero__header__content is--middle">
-           <div class="hero__can__images">
-              <div class="div-block-125 _2">
-                 <div class="div-block-grape rotate-2"><img src="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/6251b9d1de29e715a3f019b6_download%20(1).png" loading="lazy" alt="" class="can-2"/></div>
-              </div>
-              <div class="div-block-ginger rotate"><img src="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/6251b9d149962c2921b6ccc5_download%20(5).png" loading="lazy" alt="" class="can-2"/></div>
-              <div class="div-block-tropical rotate"><img src="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/6251b9d2bd7bcb8dea171701_TP_MainProductPage_1251x2330.png" loading="lazy" alt="" class="can-2"/></div>
-              <div class="div-block-orange rotate-2"><img src="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/6251b9d27648be9f39bee1fd_download%20(2).png" loading="lazy" alt="" class="can-2"/></div>
-              <div class="div-block-125">
-                 <div class="div-block-grape rotate-2"><img src="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/6251b9d28522bc5c5076d3a6_download.png" loading="lazy" alt="" class="can-2"/></div>
-              </div>
-              <div class="div-block-cherry rotate-2"><img src="../1-templates/olipop/assets.website-files.com/625096674843ef99b41c4b59/6251b9d19ff4097ff765a6e2_download%20(4).png" loading="lazy" alt="" class="can-2"/></div>
-           </div>
+          <div class="product-card carousel-cell cell  odd" data-aos="fade-up" tabindex="-1">
+            <style data-shopify>
+  @media print, screen and (min-width: 40em) {
+    .product-card .product-7231398183069 .product-card__add-to-cart-plus:hover {
+      background-color: #c9ff57;
+    }
+  }
+
+  .product-card .product-7231398183069 .card-background {
+    background: #02e088;
+    background: linear-gradient(0deg, #02e088 80px, #c9ff57 100%);
+  }
+  .product-card .product-7231398183069 .product-card__add-to-cart-plus,
+  .product-card .product-7231398183069 .button,
+  .product-card .product-7231398183069 .product-card__price { border: 9px #02e088 solid !important; }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-card-inner product-7231398183069">
+
+  <span class="visually-hidden">Greenfest</span>
+
+  <a href="/products/greenfest" class="product-image-wrapper">
+    <div class="product-image-inner">
+      <div class="primary-image product-image image-size-contain">
+        <img srcset="img/products/Artisan-Chocolate-Chip-Cookie-Bites-CUT-300x300.webp"
+          src="img/products/Artisan-Chocolate-Chip-Cookie-Bites-CUT-300x300.webp"
+          
+          alt="Greenfest"
+          loading="lazy"
+          class="motion-reduce"
+          width="213"
+          height="365"
+        >
+        <div class="shadow">
+          <img loading="lazy" src="img/products/Artisan-Chocolate-Chip-Cookie-Bites-CUT-300x300.webp" alt="shadow">
         </div>
-     </div>-->
-     <div class="bg-change-1"></div>
-     <div class="bg-change-1 mobile"></div>
+      </div></div>
+    
+  <div class="fruits">
+    
+    <!--<div class="fruit fruit-1">
+      
+  <div class="image" data-aos="zoom-in">
+    <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/mango2_small.png?v=1642474980;"
+    srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/mango2_small.png?v=1642474980 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/mango2.png?v=1642474980 2x"
+    alt="Phyll"
+    itemprop="image">
   </div>
+    </div>
+    
+    
+    <div class="fruit fruit-2">
+      
+  <div class="image" data-aos="zoom-in">
+    <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/kiwi_small.png?v=1641425575;"
+    srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/kiwi_small.png?v=1641425575 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/kiwi.png?v=1641425575 2x"
+    alt="Phyll"
+    itemprop="image">
+  </div>
+    </div>
+    
+    
+    <div class="fruit kale">
+      
+  <div class="image" data-aos="zoom-in">
+    <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x.png?v=1641425575;"
+    srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x.png?v=1641425575 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x@2x.png?v=1641425575 2x"
+    alt="Phyll"
+    itemprop="image">
+  </div>
+    </div>-->
+    
+  </div>
+
+  </a>
+
+  <a href="/products/greenfest" class="card-background"></a>
+
+  <div class="product-details-wrapper">
+    <div class="product-details-inner add_to_cart">
+        
+<a href="/products/greenfest" class="button product-card__shop-now primary   arrow " >
+  <span class="button_text">View Now</span>
+  
+    <span class="arrow"><svg width="22" height="18" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#450073" stroke-width="3" fill="none" fill-rule="evenodd" stroke-linecap="round">
+      <path d="m2.086 2 7.299 6.819-7.299 6.82M12.086 2l7.299 6.819-7.299 6.82"/>
+    </g>
+  </svg></span>
+  
+</a>
+        
+  <div class="product-card__add-to-cart-plus">
+    
+      <div class="text">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 56"><g fill="#FFF" fill-rule="evenodd"><path d="m7.771 50.829-1.24-1.454.747-.705c-.42-.333-1.036-.526-1.834-.539l-.103-.001c-1.559-.026-2.408.716-2.426 1.889-.02 1.16.794 1.916 2.378 1.942l.102.002c1.263.02 2.069-.41 2.376-1.134Zm2.307-1.709c.046.34.079.705.074 1.07-.05 3.05-1.998 4.894-4.793 4.848l-.102-.002C2.41 54.99.603 52.771.649 49.982c.045-2.867 1.779-4.989 4.69-4.942l.103.002c1.61.026 2.913.673 3.733 1.781l.877-.858 1.596 1.642-1.57 1.513ZM6.737 43.863 1.648 42.51l.682-2.922 4.979 1.322c1.126.3 1.743.19 1.988-.858.24-1.035-.256-1.441-1.395-1.745l-4.967-1.32.688-2.948 5.064 1.345c2.604.692 3.37 2.653 2.766 5.24-.63 2.703-2.246 3.895-4.716 3.239M4.648 31.574l1.23-2.535 8.77 3.466-1.229 2.534zM10.978 29.089l-.088-.058c-2.435-1.588-2.88-4.377-1.366-6.704 1.387-2.13 3.29-2.93 5.55-1.724l-1.681 2.582c-.777-.398-1.436-.278-1.889.418-.589.904-.243 1.915 1.09 2.786l.089.057c1.311.854 2.383.8 3.015-.17.46-.706.426-1.452-.31-2.057l1.623-2.493c1.985 1.484 2.085 3.717.729 5.802-1.853 2.846-4.349 3.135-6.762 1.56M13.648 16.727l2.151-1.956 2.507 2.392-.631-4.099 2.226-2.025.675 5.076 6.072 1.116-2.473 2.249-4.408-.922 2.645 2.525-2.151 1.956zM31.817 10.358l1.642-.769-2.256-2.58.614 3.349Zm-3.169-4.721 3.414-1.598 6.586 6.953-2.797 1.31-1.046-1.182-2.633 1.233.288 1.535L30 15.04l-1.352-9.402Z"/><path d="M41.282 8.09c1.328-.315 1.741-1.142 1.403-2.717l-.022-.101c-.355-1.651-1.07-2.116-2.387-1.802l-.442.105.994 4.625.454-.11Zm-4.634-6.06 3.265-.778c3.063-.73 4.948.436 5.562 3.297l.02.088c.616 2.872-.631 4.905-3.646 5.624l-3.265.778-1.936-9.01ZM51.354 6.809c1.503-.022 2.127-.72 2.1-2.283l-.002-.1c-.028-1.64-.703-2.23-2.191-2.207l-.502.007.08 4.591.515-.008ZM47.648.096 51.343.04c3.467-.053 5.253 1.448 5.303 4.287l.001.088c.05 2.851-1.735 4.517-5.147 4.568l-3.696.055-.156-8.943Z"/></g></svg>
+      </div>
+      
+
+
+
+
+  <form data-cart-submit data-product-id="7231398183069">
+    
+    
+<input type="hidden" name="id" data-productid="7231398183069" value="41816688296093">
+<input name="properties[_bg_color]" type="hidden" value="#02e088" />
+<input name="properties[_highlight_color]" type="hidden" value="#c9ff57" /><input name="properties[_available_selling_plan]" type="hidden" value="778076317" />
+
+    <select name="id" style="display:none">
+      
+      <option value="41816688296093">6 Pack - $29.99</option>
+    
+    </select>
+
+    <button class="add-to-cart-plus" data-open="offCanvasCart" type="submit">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" fill="none" viewBox="0 0 10 10">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
+</svg>
+
+    </button>
+
+  </form>
+
+
+    
+  </div>
+  
+      
+      
+      
+  
+    </div>
+  </div>
+
+
+
+
 </div>
+
+          </div>
+        
+          <div class="product-card carousel-cell cell  even" data-aos="fade-up" tabindex="-1">
+            <style data-shopify>
+  @media print, screen and (min-width: 40em) {
+    .product-card .product-7231398314141 .product-card__add-to-cart-plus:hover {
+      background-color: #e480e6;
+    }
+  }
+
+  .product-card .product-7231398314141 .card-background {
+    background: #ae58ff;
+    background: linear-gradient(0deg, #ae58ff 80px, #a1d9ff 100%);
+  }
+  .product-card .product-7231398314141 .product-card__add-to-cart-plus,
+  .product-card .product-7231398314141 .button,
+  .product-card .product-7231398314141 .product-card__price { border: 9px #ae58ff solid !important; }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-card-inner product-7231398314141">
+
+  <span class="visually-hidden">Mixed Berry</span>
+
+  <a href="/products/mixed-berry" class="product-image-wrapper">
+    <div class="product-image-inner">
+      <div class="primary-image product-image image-size-contain">
+        <img srcset="img/products/Bacon-Cheese-Dog-Chews-30pc-CUT.webp"
+          src="img/products/Bacon-Cheese-Dog-Chews-30pc-CUT.webp"
+          sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+          alt="Mixed Berry"
+          loading="lazy"
+          class="motion-reduce"
+          width="213"
+          height="365"
+        >
+        <div class="shadow">
+          <img loading="lazy" src="img/products/Bacon-Cheese-Dog-Chews-30pc-CUT.webp" alt="shadow">
+        </div>
+      </div></div>
+    
+  <div class="fruits">
+    
+    <!--<div class="fruit fruit-1">
+      
+  <div class="image" data-aos="zoom-in">
+    <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/strawberry_small.png?v=1641458249;"
+    srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/strawberry_small.png?v=1641458249 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/strawberry.png?v=1641458249 2x"
+    alt="Phyll"
+    itemprop="image">
+  </div>
+    </div>
+    
+    
+    <div class="fruit fruit-2">
+      
+  <div class="image" data-aos="zoom-in">
+    <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/blueberry_small.png?v=1641425575;"
+    srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/blueberry_small.png?v=1641425575 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/blueberry.png?v=1641425575 2x"
+    alt="Phyll"
+    itemprop="image">
+  </div>
+    </div>
+    
+    
+    <div class="fruit kale">
+      
+  <div class="image" data-aos="zoom-in">
+    <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x.png?v=1641425575;"
+    srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x.png?v=1641425575 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x@2x.png?v=1641425575 2x"
+    alt="Phyll"
+    itemprop="image">
+  </div>
+    </div>-->
+    
+  </div>
+
+  </a>
+
+  <a href="/products/mixed-berry" class="card-background"></a>
+
+  <div class="product-details-wrapper">
+    <div class="product-details-inner add_to_cart">
+        
+<a href="/products/mixed-berry" class="button product-card__shop-now primary   arrow " >
+  <span class="button_text">View Now</span>
+  
+    <span class="arrow"><svg width="22" height="18" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#450073" stroke-width="3" fill="none" fill-rule="evenodd" stroke-linecap="round">
+      <path d="m2.086 2 7.299 6.819-7.299 6.82M12.086 2l7.299 6.819-7.299 6.82"/>
+    </g>
+  </svg></span>
+  
+</a>
+        
+  <div class="product-card__add-to-cart-plus">
+    
+      <div class="text">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 56"><g fill="#FFF" fill-rule="evenodd"><path d="m7.771 50.829-1.24-1.454.747-.705c-.42-.333-1.036-.526-1.834-.539l-.103-.001c-1.559-.026-2.408.716-2.426 1.889-.02 1.16.794 1.916 2.378 1.942l.102.002c1.263.02 2.069-.41 2.376-1.134Zm2.307-1.709c.046.34.079.705.074 1.07-.05 3.05-1.998 4.894-4.793 4.848l-.102-.002C2.41 54.99.603 52.771.649 49.982c.045-2.867 1.779-4.989 4.69-4.942l.103.002c1.61.026 2.913.673 3.733 1.781l.877-.858 1.596 1.642-1.57 1.513ZM6.737 43.863 1.648 42.51l.682-2.922 4.979 1.322c1.126.3 1.743.19 1.988-.858.24-1.035-.256-1.441-1.395-1.745l-4.967-1.32.688-2.948 5.064 1.345c2.604.692 3.37 2.653 2.766 5.24-.63 2.703-2.246 3.895-4.716 3.239M4.648 31.574l1.23-2.535 8.77 3.466-1.229 2.534zM10.978 29.089l-.088-.058c-2.435-1.588-2.88-4.377-1.366-6.704 1.387-2.13 3.29-2.93 5.55-1.724l-1.681 2.582c-.777-.398-1.436-.278-1.889.418-.589.904-.243 1.915 1.09 2.786l.089.057c1.311.854 2.383.8 3.015-.17.46-.706.426-1.452-.31-2.057l1.623-2.493c1.985 1.484 2.085 3.717.729 5.802-1.853 2.846-4.349 3.135-6.762 1.56M13.648 16.727l2.151-1.956 2.507 2.392-.631-4.099 2.226-2.025.675 5.076 6.072 1.116-2.473 2.249-4.408-.922 2.645 2.525-2.151 1.956zM31.817 10.358l1.642-.769-2.256-2.58.614 3.349Zm-3.169-4.721 3.414-1.598 6.586 6.953-2.797 1.31-1.046-1.182-2.633 1.233.288 1.535L30 15.04l-1.352-9.402Z"/><path d="M41.282 8.09c1.328-.315 1.741-1.142 1.403-2.717l-.022-.101c-.355-1.651-1.07-2.116-2.387-1.802l-.442.105.994 4.625.454-.11Zm-4.634-6.06 3.265-.778c3.063-.73 4.948.436 5.562 3.297l.02.088c.616 2.872-.631 4.905-3.646 5.624l-3.265.778-1.936-9.01ZM51.354 6.809c1.503-.022 2.127-.72 2.1-2.283l-.002-.1c-.028-1.64-.703-2.23-2.191-2.207l-.502.007.08 4.591.515-.008ZM47.648.096 51.343.04c3.467-.053 5.253 1.448 5.303 4.287l.001.088c.05 2.851-1.735 4.517-5.147 4.568l-3.696.055-.156-8.943Z"/></g></svg>
+      </div>
+      
+
+
+
+
+  <form data-cart-submit data-product-id="7231398314141">
+    
+    
+<input type="hidden" name="id" data-productid="7231398314141" value="41879090987165">
+<input name="properties[_bg_color]" type="hidden" value="#ae58ff" />
+<input name="properties[_highlight_color]" type="hidden" value="#a1d9ff" /><input name="properties[_available_selling_plan]" type="hidden" value="778109085" />
+
+    <select name="id" style="display:none">
+      
+      <option value="41879090987165">6 Pack - $29.99</option>
+    
+    </select>
+
+    <button class="add-to-cart-plus" data-open="offCanvasCart" type="submit">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" fill="none" viewBox="0 0 10 10">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
+</svg>
+
+    </button>
+
+  </form>
+
+
+    
+  </div>
+  
+      
+      
+      
+  
+    </div>
+  </div>
+
+
+
+
+</div>
+
+          </div>
+        
+          <div class="product-card carousel-cell cell  odd" data-aos="fade-up" tabindex="-1">
+            <style data-shopify>
+  @media print, screen and (min-width: 40em) {
+    .product-card .product-7231398346909 .product-card__add-to-cart-plus:hover {
+      background-color: #895edd;
+    }
+  }
+
+  .product-card .product-7231398346909 .card-background {
+    background: #a76e34;
+    background: linear-gradient(0deg, #a76e34 80px, #895edd 100%);
+  }
+  .product-card .product-7231398346909 .product-card__add-to-cart-plus,
+  .product-card .product-7231398346909 .button,
+  .product-card .product-7231398346909 .product-card__price { border: 9px #a76e34 solid !important; }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-card-inner product-7231398346909">
+
+  <span class="visually-hidden">Chocolate</span>
+
+  <a href="/products/chocolate" class="product-image-wrapper">
+    <div class="product-image-inner">
+      <div class="primary-image product-image image-size-contain">
+        <img srcset="img/products/Blue-Zkittles-Delta-8-Pre-Rolls-WEB.webp"
+          src="img/products/Blue-Zkittles-Delta-8-Pre-Rolls-WEB.webp"
+          sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+          alt="Chocolate"
+          loading="lazy"
+          class="motion-reduce"
+          width="213"
+          height="365"
+        >
+        <div class="shadow">
+          <img loading="lazy" src="img/products/Blue-Zkittles-Delta-8-Pre-Rolls-WEB.webp" alt="shadow">
+        </div>
+      </div></div>
+    
+  <div class="fruits">
+    
+    <!--<div class="fruit fruit-1">
+      
+  <div class="image" data-aos="zoom-in">
+    <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/strawberry_b3ec45d7-ef85-479e-a03f-4d0508da31a2_small.png?v=1643316929;"
+    srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/strawberry_b3ec45d7-ef85-479e-a03f-4d0508da31a2_small.png?v=1643316929 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/strawberry_b3ec45d7-ef85-479e-a03f-4d0508da31a2.png?v=1643316929 2x"
+    alt="Phyll"
+    itemprop="image">
+  </div>
+    </div>
+    
+    
+    <div class="fruit fruit-2">
+      
+  <div class="image" data-aos="zoom-in">
+    <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/bananna2_small.png?v=1643397308;"
+    srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/bananna2_small.png?v=1643397308 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/bananna2.png?v=1643397308 2x"
+    alt="Phyll"
+    itemprop="image">
+  </div>
+    </div>
+    
+    
+    <div class="fruit kale">
+      
+  <div class="image" data-aos="zoom-in">
+    <img loading="lazy" src="//cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x.png?v=1641425575;"
+    srcset="//cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x.png?v=1641425575 1x, //cdn.shopify.com/s/files/1/0601/6729/1037/files/small-kale_400x@2x.png?v=1641425575 2x"
+    alt="Phyll"
+    itemprop="image">
+  </div>
+    </div>-->
+    
+  </div>
+
+  </a>
+
+  <a href="/products/chocolate" class="card-background"></a>
+
+  <div class="product-details-wrapper">
+    <div class="product-details-inner add_to_cart">
+        
+<a href="/products/chocolate" class="button product-card__shop-now primary   arrow " >
+  <span class="button_text">View Now</span>
+  
+    <span class="arrow"><svg width="22" height="18" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#450073" stroke-width="3" fill="none" fill-rule="evenodd" stroke-linecap="round">
+      <path d="m2.086 2 7.299 6.819-7.299 6.82M12.086 2l7.299 6.819-7.299 6.82"/>
+    </g>
+  </svg></span>
+  
+</a>
+        
+  <div class="product-card__add-to-cart-plus">
+    
+      <div class="text">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 56"><g fill="#FFF" fill-rule="evenodd"><path d="m7.771 50.829-1.24-1.454.747-.705c-.42-.333-1.036-.526-1.834-.539l-.103-.001c-1.559-.026-2.408.716-2.426 1.889-.02 1.16.794 1.916 2.378 1.942l.102.002c1.263.02 2.069-.41 2.376-1.134Zm2.307-1.709c.046.34.079.705.074 1.07-.05 3.05-1.998 4.894-4.793 4.848l-.102-.002C2.41 54.99.603 52.771.649 49.982c.045-2.867 1.779-4.989 4.69-4.942l.103.002c1.61.026 2.913.673 3.733 1.781l.877-.858 1.596 1.642-1.57 1.513ZM6.737 43.863 1.648 42.51l.682-2.922 4.979 1.322c1.126.3 1.743.19 1.988-.858.24-1.035-.256-1.441-1.395-1.745l-4.967-1.32.688-2.948 5.064 1.345c2.604.692 3.37 2.653 2.766 5.24-.63 2.703-2.246 3.895-4.716 3.239M4.648 31.574l1.23-2.535 8.77 3.466-1.229 2.534zM10.978 29.089l-.088-.058c-2.435-1.588-2.88-4.377-1.366-6.704 1.387-2.13 3.29-2.93 5.55-1.724l-1.681 2.582c-.777-.398-1.436-.278-1.889.418-.589.904-.243 1.915 1.09 2.786l.089.057c1.311.854 2.383.8 3.015-.17.46-.706.426-1.452-.31-2.057l1.623-2.493c1.985 1.484 2.085 3.717.729 5.802-1.853 2.846-4.349 3.135-6.762 1.56M13.648 16.727l2.151-1.956 2.507 2.392-.631-4.099 2.226-2.025.675 5.076 6.072 1.116-2.473 2.249-4.408-.922 2.645 2.525-2.151 1.956zM31.817 10.358l1.642-.769-2.256-2.58.614 3.349Zm-3.169-4.721 3.414-1.598 6.586 6.953-2.797 1.31-1.046-1.182-2.633 1.233.288 1.535L30 15.04l-1.352-9.402Z"/><path d="M41.282 8.09c1.328-.315 1.741-1.142 1.403-2.717l-.022-.101c-.355-1.651-1.07-2.116-2.387-1.802l-.442.105.994 4.625.454-.11Zm-4.634-6.06 3.265-.778c3.063-.73 4.948.436 5.562 3.297l.02.088c.616 2.872-.631 4.905-3.646 5.624l-3.265.778-1.936-9.01ZM51.354 6.809c1.503-.022 2.127-.72 2.1-2.283l-.002-.1c-.028-1.64-.703-2.23-2.191-2.207l-.502.007.08 4.591.515-.008ZM47.648.096 51.343.04c3.467-.053 5.253 1.448 5.303 4.287l.001.088c.05 2.851-1.735 4.517-5.147 4.568l-3.696.055-.156-8.943Z"/></g></svg>
+      </div>
+      
+
+
+
+
+  <form data-cart-submit data-product-id="7231398346909">
+    
+    
+<input type="hidden" name="id" data-productid="7231398346909" value="41879089283229">
+<input name="properties[_bg_color]" type="hidden" value="#a76e34" />
+<input name="properties[_highlight_color]" type="hidden" value="#895edd" /><input name="properties[_available_selling_plan]" type="hidden" value="778043549" />
+
+    <select name="id" style="display:none">
+      
+      <option value="41879089283229">6 Pack - $29.99</option>
+    
+    </select>
+
+    <button class="add-to-cart-plus" data-open="offCanvasCart" type="submit">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" fill="none" viewBox="0 0 10 10">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
+</svg>
+
+    </button>
+
+  </form>
+
+
+    
+  </div>
+  
+      
+      
+      
+  
+    </div>
+  </div>
+
+
+
+
+</div>
+
+          </div>
+        
+      
+    
+
+  </div></div>
+    </div>
+
+    <div class="grid-x align-center layout-stacked">
+      <div class="cell small-11 medium-6 large-6 section-content color_theme__light">
+        <div class="inner text-center"></div>
+      </div>
+    </div>
+    
+    <div class="grid-x section-content align-center ">
+      <div class="cell small-10">
+        <div class="button-set align-center"></div>
+      </div>
+    </div>
+      
+    
+    
+   
+
+  </div>  
+
+
   
 
-  </div>
+
+
+
+
+
+  
+<style media="screen">
+  #shopify-section-template--15761724145821__1642251543985a82b8 .background {
+    background: ;    
+  }
+</style>
+
+
+
+
+  <script type="text/javascript">
+
+    function checkMQIndex() {
+      var mq = window.matchMedia("(max-width: 639px)");
+      if (mq.matches) {
+        return 1;
+      } else {
+        return 0;
+      }
+    }
+    function checkMQWrap() {
+      var mq = window.matchMedia("(max-width: 639px)");
+      if (mq.matches) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+    function checkMQArrows() {
+      var mq = window.matchMedia("(max-width: 639px)");
+      if (mq.matches) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    function between(value, min, max) {
+      return value >= min &&  value <= max;
+    }
+    jQuery(function(){
+      carouseInit1();
+    });
+
+    document.addEventListener("shopify:section:load", function(event) {
+      carouseInit1();
+    });
+
+    function carouseInit1() {
+      var $carousel1 = $('#product-carouseltemplate--15761724145821__1642251543985a82b8').flickity({
+        selectedAttraction: 0.2,
+        friction: 0.8,
+        dragThreshold: 1,
+        initialIndex: checkMQIndex(),
+        prevNextButtons: checkMQArrows(),
+        contain: true,
+        // groupCells: '80%',
+        // groupCells: true,
+        cellAlign: 'center',
+        imagesLoaded: true,
+        lazyLoad: true,
+        wrapAround: checkMQWrap(),
+        pageDots: true,
+        draggable: '>1',
+        arrowShape: {
+          x0: 10,
+          x1: 60, y1: 50,
+          x2: 70, y2: 40,
+          x3: 30
+        },
+        on: {
+          dragMove: function(e) {
+            window.moveCursor(e);
+          }
+        }
+      });
+
+      // Flickity instance
+      var flkty1 = $carousel1.data('flickity');
+      // elements
+      var $cellButtonGroup = $('.carousel-nav');
+      var $cellButtons = $cellButtonGroup.find('.collection-selector');
+
+      // select cell on button click
+      $cellButtonGroup.on( 'click', '.collection-selector', function() {
+        var index = $(this).index();
+        var slideIndex = $(this).data('count');
+        $('.collection-selector').filter('.is-selected').removeClass('is-selected');
+        $(this).addClass('is-selected');
+        console.log(slideIndex);
+        $carousel1.flickity( 'select', slideIndex, true, false );
+      });
+
+      $carousel1.on( 'change.flickity', function( event, index ) {
+        // console.log( 'Slide changed to ' + index );
+        console.log('change on change on main func')
+        var carouseIndex = index;
+        $('.collection-selector').each(function( index, element ){
+          var data = $(this).data('count');
+          var upTo = $(this).data('up-to') - 1;
+          // need logic to check if $carouselIndex is within the range of the selected element count, and next eleement/sibling count
+          // if within the range, that category should be selected
+          //console.log(carouseIndex);
+          if (between(carouseIndex, data, upTo)) {
+            $('.collection-selector').filter('.is-selected').removeClass('is-selected');
+            $('.carousel-nav li[data-count="' + data + '"]').addClass('is-selected');
+          }
+          // if ( carouseIndex == data) {
+            
+          // }
+        });
+      });
+    }
+
+
+  </script>
 
 </section>
 
@@ -8829,253 +9491,29 @@ only 1 in 10 adults eat the recommended daily serving of fruits & veggies?</p>
 <script src="//cdn.shopify.com/s/files/1/0601/6729/1037/t/39/assets/product-form.js?v=164844736324389777701660798229" type="text/javascript"></script>
 <script src="//cdn.shopify.com/s/files/1/0601/6729/1037/t/39/assets/blog.js?v=84794646001839177771660798232" type="text/javascript"></script>
 
+<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+<script  src="js/script_articulos.js"></script>
 
 
 <script id="back-in-stock-helper">
   var _BISConfig = _BISConfig || {};
 </script>
-<!--Animacion Articles-->
-<script src="js/webflow.4327a755d.js" type="text/javascript"></script>
 
 <script>
-  let textNode =
-      document.querySelector(".animate-this-shit");
+
+          /*$.ajax({
+          type: "POST",
+          url: "../2-codigo_ayuda/floating-gallery-from-2021-yir-webflow-perfect-align/dist/index.html",
+          success: function(datos) {
+            $( "div.demo-container" ).html(datos);
   
-  textNode.innerHTML = textNode.innerText
-    .split("")
-    .map((char)=>{ return `<span>${char == " "? "&nbsp;":char}</span>`})
-    .join("");
+              console.log(datos);
   
-  setTimeout(function(){   
-    anime.timeline({loop:false})
-    .add({
-        targets: ".animate-this-shit span",
-        opacity: [0,1],
-        translateY: [100,0],
-        duration: 1500,
-        easing: "easeOutExpo",
-        delay: (e,i)=>300+50*i
-    })
-  }, 200);
   
-</script>
-<script>
-  /*--------------------------------------------------
-  Noise / Grainer
-  ---------------------------------------------------*/
-  
-  const noise = () => {
-      let canvas, ctx;
-      let wWidth, wHeight;
-      let noiseData = [];
-      let frame = 0;
-      let loopTimeout;
-      // Create Noise
-      const createNoise = () => {
-          const idata = ctx.createImageData(wWidth, wHeight);
-          const buffer32 = new Uint32Array(idata.data.buffer);
-          const len = buffer32.length;
-          for (let i = 0; i < len; i++) {
-              if (Math.random() < 0.01) {
-                  buffer32[i] = 0xff000000;
-              }
           }
-          noiseData.push(idata);
-      };
-      // Play Noise
-      const paintNoise = () => {
-          if (frame === 9) {
-              frame = 0;
-          } else {
-              frame++;
-          }
-          ctx.putImageData(noiseData[frame], 0, 0);
-      };
-      // Loop
-      const loop = () => {
-          paintNoise(frame);
-          loopTimeout = window.setTimeout(() => {
-              window.requestAnimationFrame(loop);
-          }, (1000 / 25));
-      };
-      // Setup
-      const setup = () => {
-          wWidth = window.innerWidth;
-          wHeight = window.innerHeight;
-          canvas.width = wWidth;
-          canvas.height = wHeight;
-          for (let i = 0; i < 10; i++) {
-              createNoise();
-          }
-          loop();
-      };
-      // Reset
-      let resizeThrottle;
-      const reset = () => {
-          window.addEventListener('resize', () => {
-              window.clearTimeout(resizeThrottle);
-              resizeThrottle = window.setTimeout(() => {
-                  window.clearTimeout(loopTimeout);
-                  setup();
-              }, 200);
-          }, false);
-      };
-      // Init
-      const init = (() => {
-          canvas = document.getElementById('noise');
-          ctx = canvas.getContext('2d');
-          setup();
-      })();
-  };
-  noise();  
-  
-</script>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-   document.querySelectorAll('.control-btn').forEach(trigger => {
-    trigger.addEventListener('click', function(){ 
-      this.x = ((this.x || 0) + 1)%2; 
-      if(this.x){ 
-        document.querySelectorAll('.swiper-nav-btn').forEach(target => target.classList.add('show'));
-        document.querySelectorAll('.control-btn').forEach(target => target.classList.add('active'));
-      }
-      else{ 
-        document.querySelectorAll('.swiper-nav-btn').forEach(target => target.classList.remove('show'));
-        document.querySelectorAll('.control-btn').forEach(target => target.classList.remove('active'));
-      } 
-    });
-   });
-  });
-</script>
-    
-<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-<script>
-
-$(window).on('load', function() {
-  particlesJS(
-             // this is the ID your particles container needs to have
-         	"particles-js",
-           
-           
-         // Visit https://vincentgarreau.com/particles.js/ to get your code
-         // Paste your code directly underneath this line
-         {
-           "particles": {
-             "number": {
-               "value": 30,
-               "density": {
-                 "enable": true,
-                 "value_area": 1578.2952832645453
-               }
-             },
-             "color": {
-               "value": "#fffbeb"
-             },
-             "shape": {
-               "type": "image",
-               "stroke": {
-                 "width": 0,
-                 "color": "#bbbbbb"
-               },
-               "polygon": {
-                 "nb_sides": 5
-               },
-               "image": {
-                 /*"src": "img/github.svg",*/
-                 "src": "./img/Pinnacle_fondo.png",
-                 "width": 100,
-                 "height": 100
-               }
-             },
-             "opacity": {
-               "value": 0,
-               "random": false,
-               "anim": {
-                 "enable": false,
-                 "speed": 1,
-                 "opacity_min": 0,
-                 "sync": false
-               }
-             },
-             "size": {
-               "value": 50,
-               "random": true,
-               "anim": {
-                 "enable": false,
-                 "speed": 40,
-                 "size_min": 10,
-                 "sync": false
-               }
-             },
-             "line_linked": {
-               "enable": false,
-               "distance": 0,
-               "color": "#ffffff",
-               "opacity": 0.5211089197812949,
-               "width": 13.147978899097287
-             },
-             "move": {
-               "enable": true,
-               "speed": 1,
-               "direction": "top",
-               "random": false,
-               "straight": false,
-               "out_mode": "out",
-               "bounce": false,
-               "attract": {
-                 "enable": false,
-                 "rotateX": 600,
-                 "rotateY": 1200
-               }
-             }
-           },
-           "interactivity": {
-             "detect_on": "canvas",
-             "events": {
-               "onhover": {
-                 "enable": false,
-                 "mode": "repulse"
-               },
-               "onclick": {
-                 "enable": true,
-                 "mode": "push"
-               },
-               "resize": true
-             },
-             "modes": {
-               "grab": {
-                 "distance": 400,
-                 "line_linked": {
-                   "opacity": 1
-                 }
-               },
-               "bubble": {
-                 "distance": 0,
-                 "size": 0,
-                 "duration": 2.1114007519834974,
-                 "opacity": 0,
-                 "speed": 3
-               },
-               "repulse": {
-                 "distance": 186.7777588293094,
-                 "duration": 0.4
-               },
-               "push": {
-                 "particles_nb": 4
-               },
-               "remove": {
-                 "particles_nb": 2
-               }
-             }
-           },
-           "retina_detect": true
-         }
-         )
-});
-</script>
-
-
-
+      });*/
+      </script> 
 <!-- End Back in Stock helper snippet -->
 </body>
 </html>
