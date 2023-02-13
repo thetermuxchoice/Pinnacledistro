@@ -37,7 +37,7 @@ img {
 
 .wind {
   position: absolute;
-  width: 12vw;
+  width: 20vw;
   margin-top: 0%;
   margin-left: -38%;
 }
@@ -46,12 +46,20 @@ img {
   position: relative;
   /*z-index: 200;*/
   width: 100%;
-  height: 600px;
+  height: 800px;
+  padding-bottom: 50px;
+}
+
+.parallax-section1 {
+  position: relative;
+  /*z-index: 200;*/
+  width: 100%;
+  height: 800px;
 }
 
 .basketball {
   position: absolute;
-  width: 12vw;
+  width: 20vw;
   margin-top: 0%;
   margin-left: -22%;
 }
@@ -85,14 +93,14 @@ img {
 
 .wine {
   position: absolute;
-  width: 12vw;
+  width: 20vw;
   margin-top: 0%;
   margin-left: 25%;
 }
 
 .purple {
   position: absolute;
-  width: 12vw;
+  width: 20vw;
   margin-top: 0%;
   margin-left: 10%;
 }
@@ -100,7 +108,7 @@ img {
 .halloween {
   position: absolute;
   /*z-index: 300;*/
-  width: 12vw;
+  width: 20vw;
   margin-top: 0%;
   margin-left: -6%;
 }

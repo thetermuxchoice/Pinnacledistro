@@ -633,7 +633,7 @@ Webflow.require("ix2").init({
                                      "fcb61609-205d-4c74-20b8-5fbe7f75f684"
                                   ]
                                },
-                               "yValue":250,
+                               "yValue":360,
                                "xUnit":"PX",
                                "yUnit":"px",
                                "zUnit":"PX"
@@ -710,7 +710,7 @@ Webflow.require("ix2").init({
                                      "1f5cdd0f-e089-2470-695e-c040921c3200"
                                   ]
                                },
-                               "yValue":250,
+                               "yValue":360,
                                "xUnit":"PX",
                                "yUnit":"px",
                                "zUnit":"PX"
@@ -807,7 +807,7 @@ Webflow.require("ix2").init({
                                      "b2941a65-9da5-f7b6-5399-9472390d7075"
                                   ]
                                },
-                               "yValue":250,
+                               "yValue":360,
                                "xUnit":"PX",
                                "yUnit":"px",
                                "zUnit":"PX"
@@ -884,7 +884,7 @@ Webflow.require("ix2").init({
                                      "06983fdc-6604-41ec-7f8a-a5cd19d2e9c8"
                                   ]
                                },
-                               "yValue":250,
+                               "yValue":360,
                                "xUnit":"PX",
                                "yUnit":"px",
                                "zUnit":"PX"
@@ -961,7 +961,7 @@ Webflow.require("ix2").init({
                                      "08d811f0-e951-0a00-b6ea-8cc92e89db32"
                                   ]
                                },
-                               "yValue":250,
+                               "yValue":360,
                                "xUnit":"PX",
                                "yUnit":"px",
                                "zUnit":"PX"
