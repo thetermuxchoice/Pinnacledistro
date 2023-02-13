@@ -766,10 +766,7 @@ for (var attr in meta) {
     });
   }
 })();</script>
-<script id="web-pixels-manager-setup">
-  (function e(e,n,a,o,t){e&&(window.Shopify=window.Shopify||{},window.Shopify.analytics=window.Shopify.analytics||{},window.Shopify.analytics.replayQueue=[],window.Shopify.analytics.publish=function(e,n,a){window.Shopify.analytics.replayQueue.push([e,n,a])});var r,i,s,l,d,c,p,u,f=a+"/"+o+"."+function(){var e="legacy",n="unknown",a=null,o=navigator.userAgent.match(/(Firefox|Chrome)\/(\d+)/i),t=navigator.userAgent.match(/(Edg)\/(\d+)/i),r=navigator.userAgent.match(/(Version)\/(\d+)(.+)(Safari)\/(\d+)/i);r?(n="safari",a=parseInt(r[2],10)):t?(n="edge",a=parseInt(t[2],10)):o&&(n=o[1].toLocaleLowerCase(),a=parseInt(o[2],10));var i={chrome:60,firefox:55,safari:11,edge:80}[n];return void 0!==i&&null!==a&&i<=a&&(e="modern"),e}()+".js";r={src:f,async:!0,onload:function(){if(e){var a=window.webPixelsManager.init(e);n(a),window.Shopify.analytics.replayQueue.forEach((function(e){a.publishCustomEvent(e[0],e[1],e[2])})),window.Shopify.analytics.replayQueue=[],window.Shopify.analytics.publish=a.publishCustomEvent}},onerror:function(){var n=(e.storefrontBaseUrl?e.storefrontBaseUrl.replace(/\/$/,""):self.location.origin)+"/.well-known/shopify/monorail/unstable/produce_batch",a=JSON.stringify({metadata:{event_sent_at_ms:(new Date).getTime()},events:[{schema_id:"web_pixels_manager_load/2.0",payload:{version:t||"latest",page_url:self.location.href,status:"failed",error_msg:f+" has failed to load"},metadata:{event_created_at_ms:(new Date).getTime()}}]});try{if(self.navigator.sendBeacon.bind(self.navigator)(n,a))return!0}catch(e){}const o=new XMLHttpRequest;try{return o.open("POST",n,!0),o.setRequestHeader("Content-Type","text/plain"),o.send(a),!0}catch(e){console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")}return!1}},i=document.createElement("script"),s=r.src,l=r.async||!0,d=r.onload,c=r.onerror,p=document.head,u=document.body,i.async=l,i.src=s,d&&i.addEventListener("load",d),c&&i.addEventListener("error",c),p?p.appendChild(i):u?u.appendChild(i):console.error("Did not find a head or body element to append the script")})({shopId: 60167291037,storefrontBaseUrl: "https://phyll.com",cdnBaseUrl: "https://cdn.shopify.com",surface: "storefront-renderer",enabledBetaFlags: ["web_pixels_use_shop_domain_monorail_endpoint"],webPixelExtensionBaseUrl: "https://cdn.shopify.com",webPixelsConfigList: [],initData: {"customer":null,"cart":null,"productVariants":[],"checkout":null},},function pageEvents(webPixelsManagerAPI) {webPixelsManagerAPI.publish("page_viewed");},"https://cdn.shopify.com/shopifycloud/web-pixels-manager/0.0.187","browser","0.0.187");
-  </script>
-  </head>
+<script id="web-pixels-manager-setup">(function e(e,n,a,o,t){e&&(window.Shopify=window.Shopify||{},window.Shopify.analytics=window.Shopify.analytics||{},window.Shopify.analytics.replayQueue=[],window.Shopify.analytics.publish=function(e,n,a){window.Shopify.analytics.replayQueue.push([e,n,a])});var r,i,s,l,d,c,p,u,f=a+"/"+o+"."+function(){var e="legacy",n="unknown",a=null,o=navigator.userAgent.match(/(Firefox|Chrome)\/(\d+)/i),t=navigator.userAgent.match(/(Edg)\/(\d+)/i),r=navigator.userAgent.match(/(Version)\/(\d+)(.+)(Safari)\/(\d+)/i);r?(n="safari",a=parseInt(r[2],10)):t?(n="edge",a=parseInt(t[2],10)):o&&(n=o[1].toLocaleLowerCase(),a=parseInt(o[2],10));var i={chrome:60,firefox:55,safari:11,edge:80}[n];return void 0!==i&&null!==a&&i<=a&&(e="modern"),e}()+".js";r={src:f,async:!0,onload:function(){if(e){var a=window.webPixelsManager.init(e);n(a),window.Shopify.analytics.replayQueue.forEach((function(e){a.publishCustomEvent(e[0],e[1],e[2])})),window.Shopify.analytics.replayQueue=[],window.Shopify.analytics.publish=a.publishCustomEvent}},onerror:function(){var n=(e.storefrontBaseUrl?e.storefrontBaseUrl.replace(/\/$/,""):self.location.origin)+"/.well-known/shopify/monorail/unstable/produce_batch",a=JSON.stringify({metadata:{event_sent_at_ms:(new Date).getTime()},events:[{schema_id:"web_pixels_manager_load/2.0",payload:{version:t||"latest",page_url:self.location.href,status:"failed",error_msg:f+" has failed to load"},metadata:{event_created_at_ms:(new Date).getTime()}}]});try{if(self.navigator.sendBeacon.bind(self.navigator)(n,a))return!0}catch(e){}const o=new XMLHttpRequest;try{return o.open("POST",n,!0),o.setRequestHeader("Content-Type","text/plain"),o.send(a),!0}catch(e){console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")}return!1}},i=document.createElement("script"),s=r.src,l=r.async||!0,d=r.onload,c=r.onerror,p=document.head,u=document.body,i.async=l,i.src=s,d&&i.addEventListener("load",d),c&&i.addEventListener("error",c),p?p.appendChild(i):u?u.appendChild(i):console.error("Did not find a head or body element to append the script")})({shopId: 60167291037,storefrontBaseUrl: "https://phyll.com",cdnBaseUrl: "https://cdn.shopify.com",surface: "storefront-renderer",enabledBetaFlags: ["web_pixels_use_shop_domain_monorail_endpoint"],webPixelExtensionBaseUrl: "https://cdn.shopify.com",webPixelsConfigList: [],initData: {"customer":null,"cart":null,"productVariants":[],"checkout":null},},function pageEvents(webPixelsManagerAPI) {webPixelsManagerAPI.publish("page_viewed");},"https://cdn.shopify.com/shopifycloud/web-pixels-manager/0.0.187","browser","0.0.187");</script></head>
 
 
   <body id="phyll-getting-fruits-and-veggies-has-never-been-easier" data-aos="fade-in" class="template-index">
@@ -2777,19 +2774,34 @@ for (var attr in meta) {
       var flkty = $carousel.data('flickity');}
     
   </script>
+  <style>
+    .particles-js-canvas-el {
+      position: absolute;
+      max-width: 100%;
+      max-height:100%;
+      left: 0%;
+      top: 0%;
+      right: 0%;
+      bottom: 0%;
+      z-index: -100;
+    }
+
+    #particles-js {
+      z-index: 9;
+    }
+
+    #particles-js-1 {
+      z-index: 9;
+    }
+  </style>
 
 </section>
 
 
 </div>
-
+  
 <div id="shopify-section-template--15761723588765__16413248280531e94c" class="shopify-section"> 
-  <div class="hero-divider" style="height: 86px;">
-    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 201">
-    <path d="M1440 200.98V0L0 81.935V200.98z" fill="#212121" fill-rule="evenodd"></path>
-    </svg>
-</div>
-  <section class="mfr-core__product-carousel background" id="particles-js" style="text-align: center;background: linear-gradient(#ffc31a, rgb(233 255 212));">
+  <section class="mfr-core__product-carousel background" id="particles-js" style="text-align: center;">
     <div  data-w-id="eb998a87-5860-7f04-943b-2da04bfd7a80" class="grid-container full section_spacing_none_top section_spacing_medium_bottom product-carousel-container  particles-section1" style="padding-bottom:10rem;">
       <div class="grid-x align-center product-carousel-section-template--15761723588765__16413248280531e94c" id="">
         <div class="cell small-12">
@@ -8607,7 +8619,7 @@ $(window).on('load', function() {
          {
            "particles": {
              "number": {
-               "value": 20,
+               "value": 40,
                "density": {
                  "enable": true,
                  "value_area": 1578.2952832645453
@@ -8626,6 +8638,7 @@ $(window).on('load', function() {
                  "nb_sides": 5
                },
                "image": {
+                 /*"src": "img/github.svg",*/
                  "src": "./img/leaves.png",
                  "width": 131,
                  "height": 211
@@ -8660,14 +8673,14 @@ $(window).on('load', function() {
              },
              "move": {
                "enable": true,
-               "speed": 0.5,
-               "direction": "right",
-               "random": true,
+               "speed": 1,
+               "direction": "top",
+               "random": false,
                "straight": false,
-               "out_mode": "bounce",
+               "out_mode": "out",
                "bounce": false,
                "attract": {
-                 "enable": true,
+                 "enable": false,
                  "rotateX": 600,
                  "rotateY": 1200
                }
@@ -8715,7 +8728,6 @@ $(window).on('load', function() {
            "retina_detect": true
          }
          )
-         
 });
 
 
